@@ -1,0 +1,204 @@
+path,size
+training_data/epicardioids_training_data/snapatac_matched_plus.h5ad.gz,1181766273
+training_data/epicardioids_training_data/embedding.pq,7073807
+training_data/epicardioids_training_data/snapatac_matched_atac.h5ad.gz,3273066302
+training_data/epicardioids_training_data/tf_names.csv,606
+training_data/epicardioids_training_data/no_neighbors.npz,1095
+training_data/epicardioids_training_data/adata_matched.h5ad.gz,8849731992
+training_data/epicardioids_training_data/celltype.pq,185208
+training_data/epicardioids_training_data/snapatac_matched_minus.h5ad.gz,1011279342
+training_data/epicardioids_training_data/pseudobulks/minus.17.bw.gz,20191267
+training_data/epicardioids_training_data/pseudobulks/minus.6.bw.gz,44729778
+training_data/epicardioids_training_data/pseudobulks/minus.4.bw.gz,56735863
+training_data/epicardioids_training_data/pseudobulks/minus.21.bw.gz,20506772
+training_data/epicardioids_training_data/pseudobulks/minus.13.bw.gz,35176890
+training_data/epicardioids_training_data/pseudobulks/plus.3.bw.gz,99598585
+training_data/epicardioids_training_data/pseudobulks/plus.17.bw.gz,21003037
+training_data/epicardioids_training_data/pseudobulks/minus.0.bw.gz,79294645
+training_data/epicardioids_training_data/pseudobulks/plus.20.bw.gz,20499183
+training_data/epicardioids_training_data/pseudobulks/plus.0.bw.gz,82306399
+training_data/epicardioids_training_data/pseudobulks/plus.11.bw.gz,40500196
+training_data/epicardioids_training_data/pseudobulks/minus.15.bw.gz,11471591
+training_data/epicardioids_training_data/pseudobulks/minus.7.bw.gz,57199855
+training_data/epicardioids_training_data/pseudobulks/plus.18.bw.gz,27607827
+training_data/epicardioids_training_data/pseudobulks/plus.7.bw.gz,79292374
+training_data/epicardioids_training_data/pseudobulks/minus.3.bw.gz,95316090
+training_data/epicardioids_training_data/pseudobulks/minus.1.bw.gz,45358181
+training_data/epicardioids_training_data/pseudobulks/minus.16.bw.gz,27840338
+training_data/epicardioids_training_data/pseudobulks/minus.5.bw.gz,42369149
+training_data/epicardioids_training_data/pseudobulks/minus.19.bw.gz,25270366
+training_data/epicardioids_training_data/pseudobulks/plus.16.bw.gz,28974833
+training_data/epicardioids_training_data/pseudobulks/minus.22.bw.gz,3158471
+training_data/epicardioids_training_data/pseudobulks/plus.14.bw.gz,24894367
+training_data/epicardioids_training_data/pseudobulks/minus.11.bw.gz,38894222
+training_data/epicardioids_training_data/pseudobulks/minus.10.bw.gz,30910670
+training_data/epicardioids_training_data/pseudobulks/plus.22.bw.gz,3306056
+training_data/epicardioids_training_data/pseudobulks/minus.9.bw.gz,46156656
+training_data/epicardioids_training_data/pseudobulks/plus.5.bw.gz,45103843
+training_data/epicardioids_training_data/pseudobulks/plus.2.bw.gz,87494515
+training_data/epicardioids_training_data/pseudobulks/plus.9.bw.gz,48073106
+training_data/epicardioids_training_data/pseudobulks/minus.12.bw.gz,38480863
+training_data/epicardioids_training_data/pseudobulks/minus.8.bw.gz,40882071
+training_data/epicardioids_training_data/pseudobulks/plus.21.bw.gz,21337739
+training_data/epicardioids_training_data/pseudobulks/plus.4.bw.gz,78098363
+training_data/epicardioids_training_data/pseudobulks/minus.23.bw.gz,7915016
+training_data/epicardioids_training_data/pseudobulks/plus.10.bw.gz,32903539
+training_data/epicardioids_training_data/pseudobulks/minus.20.bw.gz,19959400
+training_data/epicardioids_training_data/pseudobulks/plus.15.bw.gz,11685240
+training_data/epicardioids_training_data/pseudobulks/minus.18.bw.gz,26560440
+training_data/epicardioids_training_data/pseudobulks/plus.23.bw.gz,8386546
+training_data/epicardioids_training_data/pseudobulks/minus.2.bw.gz,83115042
+training_data/epicardioids_training_data/pseudobulks/plus.13.bw.gz,36440546
+training_data/epicardioids_training_data/pseudobulks/plus.19.bw.gz,26159188
+training_data/epicardioids_training_data/pseudobulks/minus.14.bw.gz,23496941
+training_data/epicardioids_training_data/pseudobulks/plus.6.bw.gz,46279141
+training_data/epicardioids_training_data/pseudobulks/plus.1.bw.gz,46146872
+training_data/epicardioids_training_data/pseudobulks/plus.8.bw.gz,42805639
+training_data/epicardioids_training_data/pseudobulks/plus.12.bw.gz,40848545
+training_data/epicardioids_training_data/DEG_genes.csv,343335
+training_data/epicardioids_training_data/DEG_gene_sequences.csv,169925
+training_data/scooby_training_data/embedding_no_val_genes_rna_only.pq,4906064
+training_data/scooby_training_data/snapatac_merged_atac.h5ad.gz,4315748414
+training_data/scooby_training_data/test_genes.csv,335085
+training_data/scooby_training_data/sequences.bed,1660004
+training_data/scooby_training_data/train_val_test_gene_sequences.csv,853176
+training_data/scooby_training_data/snapatac_merged_minus.h5ad.gz,313774638
+training_data/scooby_training_data/test_gene_sequences.csv,86042
+training_data/scooby_training_data/celltype_fixed.pq,389470
+training_data/scooby_training_data/cell_weights_no_normoblast.npy,509592
+training_data/scooby_training_data/val_peaks.csv,819149
+training_data/scooby_training_data/val_gene_sequences.csv,98186
+training_data/scooby_training_data/embedding_no_val_genes_new.pq,4906504
+training_data/scooby_training_data/no_neighbors.npz,1226
+training_data/scooby_training_data/genome_human.fa.fai,19381
+training_data/scooby_training_data/neighbors_100_no_val_genes_new.npz,39004226
+training_data/scooby_training_data/neurips_poissonmultivi_no_normo/adata.h5ad.gz,793316142
+training_data/scooby_training_data/neurips_poissonmultivi_no_normo/model.pt,249786484
+training_data/scooby_training_data/snapatac_merged_plus.h5ad.gz,339972986
+training_data/scooby_training_data/test_peaks.csv,714196
+training_data/scooby_training_data/embedding_no_val_genes_no_normoblast.pq,4906357
+training_data/scooby_training_data/pseudobulks/atac.Erythroblast.bw.gz,257032916
+training_data/scooby_training_data/pseudobulks/minus.CD8+_T_activated.bw.gz,42822247
+training_data/scooby_training_data/pseudobulks/minus.Transitional_B.bw.gz,12030898
+training_data/scooby_training_data/pseudobulks/plus.pDC.bw.gz,10098400
+training_data/scooby_training_data/pseudobulks/plus.MK+E_prog.bw.gz,11246967
+training_data/scooby_training_data/pseudobulks/atac.CD16+_Mono.bw.gz,165680015
+training_data/scooby_training_data/pseudobulks/plus.cDC2.bw.gz,9091380
+training_data/scooby_training_data/pseudobulks/plus.Erythroblast.bw.gz,30303447
+training_data/scooby_training_data/pseudobulks/minus.cDC2.bw.gz,8762888
+training_data/scooby_training_data/pseudobulks/plus.Proerythroblast.bw.gz,25181535
+training_data/scooby_training_data/pseudobulks/minus.G+M_prog.bw.gz,12849766
+training_data/scooby_training_data/pseudobulks/minus.CD4+_T_activated.bw.gz,30768181
+training_data/scooby_training_data/pseudobulks/plus.Plasma.bw.gz,2985453
+training_data/scooby_training_data/pseudobulks/plus.Early_Lymphoid.bw.gz,12953399
+training_data/scooby_training_data/pseudobulks/plus.CD14+_Mono.bw.gz,83971522
+training_data/scooby_training_data/pseudobulks/minus.Naive_CD20+_B.bw.gz,24320492
+training_data/scooby_training_data/pseudobulks/minus.Normoblast.bw.gz,6182266
+training_data/scooby_training_data/pseudobulks/minus.Early_Lymphoid.bw.gz,12728550
+training_data/scooby_training_data/pseudobulks/atac.MK+E_prog.bw.gz,162854872
+training_data/scooby_training_data/pseudobulks/plus.Naive_CD20+_B.bw.gz,25564238
+training_data/scooby_training_data/pseudobulks/atac.Normoblast.bw.gz,50874852
+training_data/scooby_training_data/pseudobulks/minus.Plasma.bw.gz,2890415
+training_data/scooby_training_data/pseudobulks/plus.HSC.bw.gz,11438965
+training_data/scooby_training_data/pseudobulks/minus.HSC.bw.gz,11039709
+training_data/scooby_training_data/pseudobulks/minus.MK+E_prog.bw.gz,10965301
+training_data/scooby_training_data/pseudobulks/atac.Naive_CD20+_B.bw.gz,226498648
+training_data/scooby_training_data/pseudobulks/atac.cDC2.bw.gz,130148630
+training_data/scooby_training_data/pseudobulks/minus.B1_B.bw.gz,10825076
+training_data/scooby_training_data/pseudobulks/atac.Transitional_B.bw.gz,184364873
+training_data/scooby_training_data/pseudobulks/atac.CD4+_T_activated.bw.gz,249710406
+training_data/scooby_training_data/pseudobulks/atac.Proerythroblast.bw.gz,246662502
+training_data/scooby_training_data/pseudobulks/minus.CD14+_Mono.bw.gz,79813889
+training_data/scooby_training_data/pseudobulks/plus.ILC.bw.gz,3338560
+training_data/scooby_training_data/pseudobulks/minus.ILC.bw.gz,3253185
+training_data/scooby_training_data/pseudobulks/plus.CD16+_Mono.bw.gz,19723127
+training_data/scooby_training_data/pseudobulks/minus.pDC.bw.gz,9792411
+training_data/scooby_training_data/pseudobulks/atac.B1_B.bw.gz,152509953
+training_data/scooby_training_data/pseudobulks/plus.CD8+_T_naive.bw.gz,7395779
+training_data/scooby_training_data/pseudobulks/plus.NK.bw.gz,32886352
+training_data/scooby_training_data/pseudobulks/plus.CD4+_T_activated.bw.gz,31517581
+training_data/scooby_training_data/pseudobulks/plus.CD4+_T_naive.bw.gz,27811619
+training_data/scooby_training_data/pseudobulks/atac.CD14+_Mono.bw.gz,817367861
+training_data/scooby_training_data/pseudobulks/plus.G+M_prog.bw.gz,13297831
+training_data/scooby_training_data/pseudobulks/plus.CD8+_T_activated.bw.gz,43674117
+training_data/scooby_training_data/pseudobulks/atac.CD8+_T_activated.bw.gz,319820951
+training_data/scooby_training_data/pseudobulks/minus.Erythroblast.bw.gz,29699904
+training_data/scooby_training_data/pseudobulks/test.Naive_CD20_B.bw.gz,11727
+training_data/scooby_training_data/pseudobulks/plus.B1_B.bw.gz,11349139
+training_data/scooby_training_data/pseudobulks/atac.pDC.bw.gz,167094761
+training_data/scooby_training_data/pseudobulks/minus.Proerythroblast.bw.gz,24518837
+training_data/scooby_training_data/pseudobulks/plus.Normoblast.bw.gz,6221510
+training_data/scooby_training_data/pseudobulks/minus.CD16+_Mono.bw.gz,18675448
+training_data/scooby_training_data/pseudobulks/plus.Transitional_B.bw.gz,12120098
+training_data/scooby_training_data/pseudobulks/minus.NK.bw.gz,32287988
+training_data/scooby_training_data/pseudobulks/atac.G+M_prog.bw.gz,204797184
+training_data/scooby_training_data/pseudobulks/atac.ILC.bw.gz,41096966
+training_data/scooby_training_data/pseudobulks/minus.CD8+_T_naive.bw.gz,7217704
+training_data/scooby_training_data/pseudobulks/minus.CD4+_T_naive.bw.gz,27139093
+training_data/scooby_training_data/pseudobulks/atac.Plasma.bw.gz,36809514
+training_data/scooby_training_data/pseudobulks/atac.CD4+_T_naive.bw.gz,229826528
+training_data/scooby_training_data/pseudobulks/atac.HSC.bw.gz,179582845
+training_data/scooby_training_data/pseudobulks/atac.Early_Lymphoid.bw.gz,184623375
+training_data/scooby_training_data/pseudobulks/atac.NK.bw.gz,278851131
+training_data/scooby_training_data/pseudobulks/atac.CD8+_T_naive.bw.gz,128534920
+training_data/scooby_training_data/val_test_gene_sequences.csv,184228
+training_data/scooby_training_data/atac_peaks.csv,6266950
+training_data/scooby_training_data/test_gene_hv_sequences.csv,13989
+training_data/scooby_training_data/val_genes.csv,385361
+training_data/scooby_training_data/genome_human.fa.gz,983659440
+training_data/onek1k_training_data/snapatac_merged_minus.h5ad.gz,7561031893
+training_data/onek1k_training_data/test_gene_sequences.csv,130891
+training_data/onek1k_training_data/celltype_fixed.pq,5332146
+training_data/onek1k_training_data/val_gene_sequences.csv,147724
+training_data/onek1k_training_data/OneK1K_only_immune.h5ad.gz,2514429404
+training_data/onek1k_training_data/no_neighbors.npz,5907
+training_data/onek1k_training_data/embedding_no_val_genes.pq,61200253
+training_data/onek1k_training_data/snapatac_merged_plus.h5ad.gz,9945690428
+training_data/onek1k_training_data/tissue_ontology_mapping.tsv,23300
+training_data/onek1k_training_data/pseudobulks/plus.NK cell.bw.gz,61534770
+training_data/onek1k_training_data/pseudobulks/minus.monocyte.bw.gz,28978906
+training_data/onek1k_training_data/pseudobulks/plus.CD4+ CTL cell.bw.gz,20138261
+training_data/onek1k_training_data/pseudobulks/plus.CD4+ T cell.bw.gz,67788228
+training_data/onek1k_training_data/pseudobulks/minus.memory B cell.bw.gz,25882785
+training_data/onek1k_training_data/pseudobulks/plus.MAIT cell.bw.gz,15791791
+training_data/onek1k_training_data/pseudobulks/plus.memory B cell.bw.gz,26685357
+training_data/onek1k_training_data/pseudobulks/minus.platelet.bw.gz,2546677
+training_data/onek1k_training_data/pseudobulks/plus.CD16+ monocyte.bw.gz,24621732
+training_data/onek1k_training_data/pseudobulks/minus.nan.bw.gz,22851127
+training_data/onek1k_training_data/pseudobulks/minus.plasmacytoid dendritic cell.bw.gz,8019533
+training_data/onek1k_training_data/pseudobulks/minus.CD16+ monocyte.bw.gz,23768625
+training_data/onek1k_training_data/pseudobulks/minus.CD4+ TEM cell.bw.gz,25504254
+training_data/onek1k_training_data/pseudobulks/minus.Treg memory.bw.gz,21846845
+training_data/onek1k_training_data/pseudobulks/plus.CD4+ TCM cell.bw.gz,72808891
+training_data/onek1k_training_data/pseudobulks/plus.CD4+ TEM cell.bw.gz,26166517
+training_data/onek1k_training_data/pseudobulks/minus.gdT cell.bw.gz,20697863
+training_data/onek1k_training_data/pseudobulks/plus.nan.bw.gz,23394840
+training_data/onek1k_training_data/pseudobulks/minus.CD8+ TCM cell.bw.gz,20556156
+training_data/onek1k_training_data/pseudobulks/minus.dnT cell.bw.gz,7245035
+training_data/onek1k_training_data/pseudobulks/minus.plasmablast.bw.gz,17562583
+training_data/onek1k_training_data/pseudobulks/plus.gdT cell.bw.gz,21147284
+training_data/onek1k_training_data/pseudobulks/minus.CD56+ NK cell.bw.gz,14464446
+training_data/onek1k_training_data/pseudobulks/plus.CD8+ TCM cell.bw.gz,21114802
+training_data/onek1k_training_data/pseudobulks/plus.plasmablast.bw.gz,18052172
+training_data/onek1k_training_data/pseudobulks/plus.dendritic cell.bw.gz,18433208
+training_data/onek1k_training_data/pseudobulks/minus.dendritic cell.bw.gz,17893486
+training_data/onek1k_training_data/pseudobulks/plus.CD8+ T cell.bw.gz,32712970
+training_data/onek1k_training_data/pseudobulks/minus.CD4+ T cell.bw.gz,65560778
+training_data/onek1k_training_data/pseudobulks/plus.platelet.bw.gz,2668294
+training_data/onek1k_training_data/pseudobulks/plus.hematopoietic precursor cell.bw.gz,9719863
+training_data/onek1k_training_data/pseudobulks/minus.hematopoietic precursor cell.bw.gz,9487954
+training_data/onek1k_training_data/pseudobulks/plus.Treg memory.bw.gz,22405588
+training_data/onek1k_training_data/pseudobulks/plus.CD56+ NK cell.bw.gz,14852267
+training_data/onek1k_training_data/pseudobulks/plus.monocyte.bw.gz,30029990
+training_data/onek1k_training_data/pseudobulks/minus.CD4+ CTL cell.bw.gz,19723881
+training_data/onek1k_training_data/pseudobulks/minus.CD8+ T cell.bw.gz,31674403
+training_data/onek1k_training_data/pseudobulks/minus.CD4+ TCM cell.bw.gz,70400449
+training_data/onek1k_training_data/pseudobulks/plus.B cell.bw.gz,40157175
+training_data/onek1k_training_data/pseudobulks/minus.CD8+ TEM cell.bw.gz,57747053
+training_data/onek1k_training_data/pseudobulks/plus.plasmacytoid dendritic cell.bw.gz,8212858
+training_data/onek1k_training_data/pseudobulks/minus.B cell.bw.gz,38827289
+training_data/onek1k_training_data/pseudobulks/minus.NK cell.bw.gz,59884099
+training_data/onek1k_training_data/pseudobulks/plus.dnT cell.bw.gz,7492936
+training_data/onek1k_training_data/pseudobulks/minus.MAIT cell.bw.gz,15475140
+training_data/onek1k_training_data/pseudobulks/plus.CD8+ TEM cell.bw.gz,59323883
+training_data/onek1k_training_data/friendly_names.tsv,4618

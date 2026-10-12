@@ -1,0 +1,11 @@
+pretrained_path: lauradmartens/onek1k-scooby
+embedding_path: /home/shreyas/scooby/scooby_inference/data/embedding_no_val_genes.pq
+cell_type_idx_path: /home/shreyas/scooby/scooby_inference/data/celltype_fixed.pq
+fasta_file: /home/shreyas/scooby/scooby_inference/data/genome_human.fa
+gtf_file: /home/shreyas/scooby/scooby_inference/data/gencode.v32.annotation.sorted.gtf.gz
+bed_file: /home/shreyas/scooby/scooby_inference/scooby_reproducibility/scripts/inference_eqtls/genes_tsscentred.bed
+data_path: /home/shreyas/scooby/scooby_inference/inputs/chunk0.tsv
+span: true
+return_center_bins_only: true
+replicate: null
+disable_autocast: false

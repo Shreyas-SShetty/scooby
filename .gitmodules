@@ -1,0 +1,3 @@
+[submodule "scooby_inference/scooby_reproducibility"]
+	path = scooby_inference/scooby_reproducibility
+	url = https://github.com/gagneurlab/scooby_reproducibility.git
