@@ -1,5 +1,5 @@
 ```
-cd ~/scooby/scooby_step2
+cd ~/scooby/scooby_inference
 nvidia-smi                                      
 bash setup_env.sh                               
 source ~/venvs/scooby-inf/bin/activate
