@@ -24,4 +24,4 @@ uv pip install --no-deps git+https://github.com/gagneurlab/scooby.git
 # The authors' variant-scoring script and gene windows.
 [ -d scooby_reproducibility ] || git clone --depth 1 https://github.com/gagneurlab/scooby_reproducibility.git
 
-echo "Environment ready. Next: python smoke_test.py"
+echo "Environment ready. Next: see README.md, section 2 (data)."

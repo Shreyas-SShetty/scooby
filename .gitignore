@@ -1,9 +1,7 @@
 /scooby_inference/data/gencode.v32.annotation.sorted.gtf.gz
 /scooby_inference/data/gencode.v32.annotation.sorted.gtf.gz.tbi
 /scooby_inference/data/genome_human.fa
-/scooby_inference/data/embedding_no_val_genes.pq
 /scooby_inference/data/authors_outs
-/scooby_inference/data/authors_all.h5ad
 /scooby_inference/results
 /scooby_assets/training_data/onek1k_training_data/embedding_no_val_genes.pq
 *.fai
