@@ -1,0 +1,14 @@
+xQTL/CIMA_Lead_cis-xQTL.csv
+xQTL/CIMA_caQTL_eQTL_SMR.csv
+xQTL/CIMA_Dynamic_eQTL_of_Bcells_and_Monocytes.csv
+xQTL/CIMA_Trans-eQTL.xlsx
+xQTL/CIMA_Cell_Type-specific_Analysis_of_cis-xQTLs.xlsx
+xQTL/CIMA_Ancestry-specific_loci_in_cis-xQTLs.xlsx
+xQTL/CIMA_Significant_SMR_Pleiotropic_Associations.xlsx
+xQTL/CIMA_Traits_Used_for_SMR_Analysis.xlsx
+xQTL/CIMA_In_House_GWAS_of_Lipids_and_Metabolisms.xlsx
+xQTL/CIMA_Chinese_Selection_Loci.xlsx
+Metadata/CIMA_Sample_Information_Metadata.csv
+Metadata/CIMA_Sample_Omics_Metadata.csv
+Cell_Atlas/CIMA_Cell_Type_Level_and_Marker.xlsx
+Cell_Atlas/CIMA_Cell_Type_L4_scRNA_Proportion.csv

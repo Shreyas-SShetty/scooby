@@ -1,0 +1,49 @@
+study_label,tissue_label,pred_columns,group,note
+CIMA,CD4_Tcm_CXCR5,CD4+_TCM_cell,1_same_id,CL:0000904 both (OneK1K CD4_TCM)
+CIMA,CD4_Tem_CCR7neg,CD4+_TEM_cell,1_same_id,CL:0000905 both (OneK1K CD4_TEM)
+CIMA,CD4_CTL_GZMH,CD4+_CTL_cell,1_same_id,CL:0000934 both (OneK1K CD4_CTL)
+CIMA,CD8_Tcm_IFI44L,CD8+_TCM_cell,1_same_id,CL:0000907 both (OneK1K CD8_TCM); CIMA subset is interferon-marked
+CIMA,CD8_Tem_CCR7neg,CD8+_TEM_cell,1_same_id,CL:0000913 both (OneK1K CD8_TEM)
+CIMA,MAIT_SLC4A10,MAIT_cell,1_same_id,CL:0000940 both (OneK1K MAIT)
+CIMA,NK_bright_XCL1,CD56+_NK_cell,1_same_id,CL:0000938 both (OneK1K NK_CD56bright)
+CIMA,HSPC_CD34,hematopoietic_precursor_cell,1_same_id,CL:0008001 both (OneK1K HSPC)
+CIMA,Plasmablast_MKI67,plasmablast,1_same_id,CL:0000980 both (OneK1K Plasmablast)
+CIMA,CD4_Tn_CCR7,CD4+_T_cell,2_same_type,OneK1K CD4_Naive CL:0000624 vs CIMA naive CD4 CL:0000895
+CIMA,CD8_Tn_CCR7,CD8+_T_cell,2_same_type,OneK1K CD8_Naive CL:0000625 vs CIMA naive CD8 CL:0000900
+CIMA,DC2_CD1C,dendritic_cell,2_same_type,OneK1K cDC2 CL:0000451 vs CIMA CD1c+ DC CL:0002399
+CIMA,cMono_CD14,monocyte,2_same_type,OneK1K CD14_Mono CL:0002057 vs CIMA classical monocyte CL:0000860
+CIMA,ncMono_FCGR3A,CD16+_monocyte,2_same_type,OneK1K CD16_Mono CL:0002396 vs CIMA non-classical monocyte CL:0000875
+CIMA,pDC_IRF4,plasmacytoid_dendritic_cell,2_same_type,OneK1K pDC CL:0000784 vs CIMA pDC (human) CL:0001058
+CIMA,Bn_TCL1A,B_cell,3_judgment,OneK1K B_naive+B_intermediate CL:0000236 vs CIMA naive B CL:0000788
+CIMA,Mature_NK_dim_FCGR3A,NK_cell,3_judgment,OneK1K NK+NK_Proliferating CL:0000623 vs CIMA mature NK CL:0000824
+CIMA,CD4_Treg_FOXP3,Treg_memory,3_judgment,OneK1K Treg CL:0002677 vs CIMA CD25+ Treg CL:0000792
+CIMA,Switched_Bm_IGHDneg,memory_B_cell,3_judgment,OneK1K B_memory CL:0000787 vs CIMA switched memory B CL:0001053
+CIMA,gdT2_IL12RB2,gdT_cell,3_judgment,OneK1K gdT CL:0000798 vs CIMA Vd2 gdT CL:0002407
+CIMA,MK_GP9,platelet,4_extra,OneK1K platelet CL:0000233 vs CIMA megakaryocyte CL:0000556 (different cell)
+CIMA,CD4_Tcm_IFI44L,CD4+_TCM_cell,4_extra,second CIMA subtype with CL:0000904
+CIMA,cMono_IL1B,monocyte,4_extra,second CIMA subtype with CL:0000860
+CIMA,cMono_IFI44L,monocyte,4_extra,second CIMA subtype with CL:0000860
+CIMA,cMono_CXCL10,monocyte,4_extra,second CIMA subtype with CL:0000860
+CIMA,ncMono_C1QA,CD16+_monocyte,4_extra,second CIMA subtype with CL:0000875
+CIMA,ncMono_IFIT1,CD16+_monocyte,4_extra,second CIMA subtype with CL:0000875
+CIMA,CD8_CTL_GZMB,CD8+_TEM_cell,4_extra,CIMA CD8 CTL CL:0000794 is not effector memory
+CIMA,CD8_CTL_GZMK,CD8+_TEM_cell,4_extra,CIMA CD8 CTL CL:0000794 is not effector memory
+CIMA,CD4_Treg_FCRL3,Treg_memory,4_extra,second CIMA subtype with CL:0000792
+CIMA,Bn_IL6,B_cell,4_extra,second CIMA subtype with CL:0000788
+CIMA,Bn_IFIT3,B_cell,4_extra,second CIMA subtype with CL:0000788
+CIMA,Terminal_NK_dim_CD160neg,NK_cell,4_extra,second CIMA subtype with CL:0000824
+CIMA,Unswitched_Bm_CD1C,memory_B_cell,4_extra,other CIMA memory B subtype (L2 Memory B CL:0000787)
+CIMA,pre-Switched_Bm_JAM3,memory_B_cell,4_extra,other CIMA memory B subtype (L2 Memory B CL:0000787)
+CIMA,Switched_activated_Bm_CD86,memory_B_cell,4_extra,other CIMA memory B subtype (L2 Memory B CL:0000787)
+CIMA,Atypical_Bm_ITGAX,memory_B_cell,4_extra,other CIMA memory B subtype (L2 Memory B CL:0000787)
+CIMA,gdT2_GZMK,gdT_cell,4_extra,other CIMA gdT subtype (L2 gdT CL:0000798)
+CIMA,gdT2_GZMH,gdT_cell,4_extra,other CIMA gdT subtype (L2 gdT CL:0000798)
+CIMA,gdT1_TRDV1,gdT_cell,4_extra,other CIMA gdT subtype (L2 gdT CL:0000798)
+CIMA,CD4_Tn_SOX4,CD4+_T_cell,4_extra,second CIMA subtype with CL:0000895
+CIMA,CD4_Tn_CXCR5,CD4+_T_cell,4_extra,second CIMA subtype with CL:0000895
+CIMA,CD4_Tn_LIMS1,CD4+_T_cell,4_extra,second CIMA subtype with CL:0000895
+CIMA,CD8_Tn_SOX4,CD8+_T_cell,4_extra,second CIMA subtype with CL:0000900
+CIMA,Proliferative_NK_MKI67,NK_cell,4_extra,OneK1K NK cell includes NK_Proliferating; CIMA CL:4033071
+CIMA,Switched_Bm_IGHE,memory_B_cell,4_extra,other CIMA memory B subtype (L2 Memory B CL:0000787)
+CIMA,Unswitched_Bm_IL6,memory_B_cell,4_extra,other CIMA memory B subtype (L2 Memory B CL:0000787)
+CIMA,CD8_CTL_IFI44L,CD8+_TEM_cell,4_extra,CIMA CD8 CTL CL:0000794 is not effector memory

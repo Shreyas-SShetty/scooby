@@ -8,11 +8,13 @@ Method copied from the authors' notebooks/figure4/Figure4.ipynb:
   * Distance to TSS uses GENCODE v32 gene starts (gene end for - strand genes).
   * Effects are natural-log fold changes; "non-negligible" means |predicted effect| > 0.05.
 
-Run (reproduce the paper):
-  python evaluate_eqtl.py
-For other data (e.g. CIMA later), pass --pred, --eqtl and a --mapping CSV with columns
-  study_label, tissue_label, pred_columns   (pred_columns = scooby column names separated by ';').
-Outputs go to eval_out/: summary.csv (one row per study/tissue), distance_bins.csv, merged.csv.gz.
+Run (from scooby_inference/):
+  python evaluate_eqtl.py                                    # authors' predictions -> eval_onek1k/eval_out_authors_eqtl/
+  python evaluate_eqtl.py --pred "results/gtex_onek1k_pairs/outs_*.h5ad" --out eval_onek1k/eval_out_ours
+CIMA: score_cima.py calls this with --pred results/cima_pairs*/..., --eqtl data/cima_eqtl.tsv and
+  --mapping cima_mapping.csv (columns study_label, tissue_label, pred_columns; pred_columns = scooby column
+  names separated by ';') -> eval_out_cima/.
+Outputs in --out: summary.csv (one row per study/tissue), distance_bins.csv, merged.csv.gz.
 """
 import argparse
 import glob
@@ -32,7 +34,7 @@ p.add_argument("--gtf", default="data/gencode.v32.annotation.sorted.gtf.gz")
 p.add_argument("--mapping", default=None, help="CSV: study_label,tissue_label,pred_columns (default: authors')")
 p.add_argument("--cutoff", type=float, default=0.05, help="non-negligible predicted effect")
 p.add_argument("--min-n", type=int, default=10, help="report study/tissue groups with more than this many pairs")
-p.add_argument("--out", default="eval_out")
+p.add_argument("--out", default="eval_onek1k/eval_out_authors_eqtl")
 args = p.parse_args()
 out = Path(args.out)
 out.mkdir(exist_ok=True)

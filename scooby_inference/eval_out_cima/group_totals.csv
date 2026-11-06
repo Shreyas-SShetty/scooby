@@ -1,0 +1,5 @@
+group,cell_types,n,n_nonneg,n_correct,pct_clear,pct_correct_of_clear
+1_same_id,9,9172,475,424.0,5.2,89.3
+2_same_type,6,12966,755,650.0,5.8,86.1
+3_judgment,5,6854,349,298.0,5.1,85.4
+4_extra,28,13721,709,610.0,5.2,86.0
