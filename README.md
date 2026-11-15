@@ -40,7 +40,7 @@ bash run_all_chunks.sh 0 inputs/gtex_onek1k_pairs.tsv        # 1,585 pairs; 0 = 
 
 # b. score against measured eQTLs
 python evaluate_eqtl.py --pred "results/gtex_onek1k_pairs/outs_*.h5ad" --out eval_onek1k/eval_out_ours
-python evaluate_eqtl.py                                      # authors' predictions -> eval_onek1k/eval_out_authors_eqtl
+python evaluate_eqtl.py                                      # reproduces the paper's numbers from the authors' predictions -> eval_onek1k/eval_out_authors_eqtl
 
 # c. check that our predictions reproduce the authors'
 python compare_onek1k_with_authors.py                        # -> eval_onek1k/eval_out_compare
