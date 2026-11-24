@@ -16,7 +16,7 @@ Data in `scooby_inference/data/` (from the authors' Zenodo records 15517072 and 
 `embedding_no_val_genes.pq`, `celltype_fixed.pq`, `all_highpip_susie.tsv` (in git);
 `genome_human.fa`, `gencode.v32.annotation.sorted.gtf.gz` (+ `.tbi`); `scpoli/training_data/` (OneK1K counts, for the encoder).
 
-## Other experiments 
+## Experiments 
 
 **1. GTEx whole blood and OneK1K eQTLs with OneK1K cells: reproduce the paper's Fig. 4.**
 ```bash
