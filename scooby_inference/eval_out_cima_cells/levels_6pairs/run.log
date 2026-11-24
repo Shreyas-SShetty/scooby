@@ -1,0 +1,20 @@
+/home/shreyas/venvs/scooby-inf/lib/python3.11/site-packages/anndata/utils.py:434: FutureWarning: Importing read_elem from `anndata.experimental` is deprecated. Import anndata.io.read_elem instead.
+  warnings.warn(msg, FutureWarning)
+/home/shreyas/venvs/scooby-inf/lib/python3.11/site-packages/anndata/utils.py:434: FutureWarning: Importing sparse_dataset from `anndata.experimental` is deprecated. Import anndata.io.sparse_dataset instead.
+  warnings.warn(msg, FutureWarning)
+0 5
+Load data
+Loaded data
+Chromosome                  chr1
+gene_name                 CHI3L2
+variant       chr1_111225954_G_A
+Pos                    111225953
+Ref                            G
+Alt                            A
+gene_id          ENSG00000064886
+Name: 0, dtype: object
+lauradmartens/onek1k-scooby
+step2_config_cima_cells.yaml
+  0%|          | 0/12 [00:00<?, ?it/s] 83%|████████▎ | 10/12 [00:05<00:01,  1.96it/s]100%|██████████| 12/12 [00:05<00:00,  2.14it/s]
+/home/shreyas/venvs/scooby-inf/lib/python3.11/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)

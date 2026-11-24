@@ -1,0 +1,25 @@
+{
+ "cells": 1267768,
+ "genes": 2403,
+ "folds": 5,
+ "hidden": [
+  512,
+  256
+ ],
+ "r2_per_dimension": [
+  0.9995,
+  0.9987,
+  0.9923,
+  0.9994,
+  0.9902,
+  0.9977,
+  0.9998,
+  0.9966,
+  0.9995,
+  0.9999
+ ],
+ "r2_mean": 0.9974,
+ "median_distance_to_authors": 0.0138,
+ "median_distance_between_column_centres": 1.0179,
+ "nearest_centre_same_as_authors": 0.9613
+}

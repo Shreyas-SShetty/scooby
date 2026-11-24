@@ -11,3 +11,17 @@
 /cima/Cell_Atlas/
 /cima/xQTL/*
 !/cima/xQTL/CIMA_Lead_cis-xQTL.csv
+
+# large single-cell inputs for the embedding substitute
+scooby_inference/data/scpoli/
+scooby_inference/data/cima_cells/
+
+# not pushed: reports/decks/figures, AIDA raw cells, AIDA paper supplementary files, large derived embeddings
+*.pdf
+*.pptx
+/figures/
+scooby_inference/data/aida/cells/
+scooby_inference/data/aida/cell2025_supplementary/
+scooby_inference/data/aida/embedded*/embedding.pq
+scooby_inference/scpoli_substitute/embedding_heldout_predicted.pq
+__pycache__/

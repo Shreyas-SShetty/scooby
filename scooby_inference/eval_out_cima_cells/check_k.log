@@ -1,0 +1,30 @@
+  utils.warn_names_duplicates("obs")
+eQTLs that are leads in >= 2 types: 8,130; cases (type pairs): 114,494
+measured: Pearson beta_A vs beta_B 0.958, same sign 99.8%; predicted: Pearson 0.979; median SE of a difference 0.084
+                                 cases      n  distinct_eqtls  pct_right_direction  spearman  median_abs_measured_diff  median_abs_predicted_diff
+                             all cases 114494            8130              49.5380    0.0054                    0.1045                     0.0003
+                 |measured diff| > 0.3  15081            1366              50.4277    0.0592                    0.3967                     0.0007
+   measured diff significant (|z| > 3)  19589            1797              51.0797    0.0644                    0.3530                     0.0007
+       significant, different lineages  12197            1281              51.0207    0.0910                    0.3653                     0.0011
+             significant, same lineage   7392            1125              51.1769    0.0184                    0.3343                     0.0003
+  significant, measured signs opposite    174              50              48.2759   -0.0125                    0.8769                     0.0016
+  significant, |predicted diff| > 0.01   3003             221              60.9724    0.3372                    0.4045                     0.0270
+  significant, |predicted diff| > 0.05    827              62              82.2249    0.5128                    0.4815                     0.0733
+
+large predicted differences: 827 cases from 62 eQTLs; majority right for 41 of 62 (binomial p = 0.015)
+                                         gene  cases  share_right
+key                                                              
+chr12_69338325_T_C|ENSG00000090382        LYZ    170        1.000
+chr17_27631065_A_G|ENSG00000168961     LGALS9     93        1.000
+chr13_42992237_A_C|ENSG00000133106     EPSTI1     89        1.000
+chr5_151239432_C_T|ENSG00000196743       GM2A     55        0.873
+chr1_201507152_T_C|ENSG00000159176      CSRP1     50        0.340
+chr13_43023570_C_T|ENSG00000120675    DNAJC15     41        0.146
+chr14_100305638_C_G|ENSG00000197119  SLC25A29     34        1.000
+chr8_80138778_C_T|ENSG00000076554       TPD52     29        1.000
+C19orf33: per-cell level 0.0052-0.06 (12x); effect -1.167 to -0.160
+CARD8-AS1: per-cell level 0.0261-0.12 (5x); effect 0.002 to 0.004
+CHI3L2: per-cell level 0.0083-0.36 (43x); effect -0.018 to 0.014
+HKDC1: per-cell level 0.0007-0.02 (25x); effect -1.597 to -0.135
+LYZ: per-cell level 0.0643-47.44 (738x); effect -0.011 to 0.081
+OCEL1: per-cell level 0.0721-0.56 (8x); effect -0.013 to 0.045

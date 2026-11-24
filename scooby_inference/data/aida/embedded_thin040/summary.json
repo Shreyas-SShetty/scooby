@@ -1,0 +1,23 @@
+{
+ "cells": 1178372,
+ "donors": 619,
+ "types": 35,
+ "genes_found": 2228,
+ "genes_total": 2403,
+ "aida_median_counts_over_encoder_genes": 234.0,
+ "share_nearest_mapped_column": 0.6989974144195554,
+ "share_nearest_same_lineage": 0.967785238447621,
+ "median_distance_to_nearest_centre": 0.10955275595188141,
+ "same_lineage_B": 0.9997723679368584,
+ "same_lineage_DC": 0.8535448903839463,
+ "same_lineage_HSPC": 0.708,
+ "same_lineage_Mono": 0.9945569767813228,
+ "same_lineage_NK": 0.8740427121503102,
+ "same_lineage_T": 0.9817512204775326,
+ "same_lineage_platelet": 0.986,
+ "thin": 0.4,
+ "compare_to": "data/aida/embedded/embedding.pq",
+ "median_moved": 0.059183456003665924,
+ "p90_moved": 0.12831923961639405,
+ "same_nearest_centre": 0.7985737950324685
+}

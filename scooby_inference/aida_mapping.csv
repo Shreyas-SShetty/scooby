@@ -1,0 +1,36 @@
+aida_type,pred_columns,lineage,has_eqtls,note
+B,B_cell;memory_B_cell,B,False,Level3 'B' = B cells not given a subtype
+naive_B,B_cell,B,True,
+memory_B,memory_B_cell,B,False,
+memory_B_IGHMhi,memory_B_cell,B,True,
+memory_B_IGHMlo,memory_B_cell,B,True,
+atypical_B,memory_B_cell,B,True,
+Plasma_Cell,plasmablast,B,False,
+CD4+_T,CD4+_T_cell;CD4+_TCM_cell;CD4+_TEM_cell,T,False,
+CD4+_T_naive,CD4+_T_cell,T,True,OneK1K 'CD4+ T cell' is mostly naive CD4
+CD4+_T_cm,CD4+_TCM_cell,T,True,
+CD4+_T_em,CD4+_TEM_cell,T,True,
+CD4+_T_cyt,CD4+_CTL_cell,T,True,
+Treg,Treg_memory,T,True,
+CD8+_T,CD8+_T_cell;CD8+_TCM_cell;CD8+_TEM_cell,T,False,
+CD8+_T_naive,CD8+_T_cell,T,True,OneK1K 'CD8+ T cell' is mostly naive CD8
+CD8+_T_GZMBhi,CD8+_TEM_cell,T,True,
+CD8+_T_GZMKhi,CD8+_TEM_cell;CD8+_TCM_cell,T,True,GZMK+ CD8 sit between TCM and TEM
+MAIT,MAIT_cell,T,True,
+gdT_GZMBhi,gdT_cell,T,True,
+gdT_GZMKhi,gdT_cell,T,True,
+dnT,dnT_cell,T,False,
+T,,T,False,unsubtyped T cells
+CD16+_NK,NK_cell,NK,True,
+CD56+_NK,CD56+_NK_cell,NK,True,
+NK,NK_cell;CD56+_NK_cell,NK,False,
+ILC,,NK,False,no OneK1K column; lineage set to NK
+CD14+_Monocyte,monocyte,Mono,True,
+CD16+_Monocyte,CD16+_monocyte,Mono,True,
+Myeloid,,Mono,False,unsubtyped myeloid
+cDC1,dendritic_cell,DC,False,
+cDC2,dendritic_cell,DC,True,
+DC_SIGLEC6hi,dendritic_cell,DC,False,
+pDC,plasmacytoid_dendritic_cell,DC,False,
+CD34_HSPC,hematopoietic_precursor_cell,HSPC,False,
+Platelet,platelet,platelet,False,

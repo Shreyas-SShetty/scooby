@@ -1,0 +1,6 @@
+step,rows,pairs,genes,cell_types
+"Table S6, all rows (all pass eigenMT FDR < 0.05)",143918,135718,12117,20
+eQTL_CellSubtype_FDR < 0.05,57875,51373,11431,20
+single-base variants,54048,47972,11347,20
+gene matched to a GENCODE v32 ID,54027,47953,11343,20
+variant inside the gene's Scooby window,33751,27857,9034,20

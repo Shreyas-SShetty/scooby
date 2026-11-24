@@ -1,0 +1,3 @@
+297a298,299
+> adata.layers["log_ref"] = preds[:len(var_ds.snp_df)].numpy()
+> adata.layers["log_alt"] = preds[len(var_ds.snp_df):].numpy()

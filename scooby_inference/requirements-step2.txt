@@ -6,7 +6,7 @@ enformer-pytorch==0.8.10
 accelerate==1.0.1
 peft @ git+https://github.com/lauradmartens/peft.git
 einops
-numpy
+numpy==1.26.4          # enformer_pytorch uses np.fromstring, which NumPy >= 2.3 removed
 pandas
 polars
 pyarrow

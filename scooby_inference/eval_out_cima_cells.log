@@ -1,0 +1,186 @@
+  utils.warn_names_duplicates("obs")
+  utils.warn_names_duplicates("obs")
+cima_pairs_cima_cells: 36,739 input rows, 36,739 covered (complete)
+
+=== per CIMA type (new = CIMA cells, own column; old_ = OneK1K cells, mapped column) ===
+                     lineage                  cima_type        group    n  spearman  old_spearman  n_nonneg  old_n_nonneg  sign_agree_nonneg  old_sign_agree_nonneg
+                           B          Atypical_Bm_ITGAX      4_extra  474     0.132         0.128        27          29.0              0.889                  0.862
+                           B                   Bn_IFIT3      4_extra   93     0.198         0.185         4           4.0              1.000                  1.000
+                           B                     Bn_IL6      4_extra  211     0.146         0.143         8           8.0              0.750                  0.750
+                           B                   Bn_TCL1A   3_judgment 1786     0.152         0.151       100         102.0              0.860                  0.853
+                           B               Plasma_IGHA1 new_unmapped  242     0.071           NaN        15           NaN              0.867                    NaN
+                           B               Plasma_IGHG1 new_unmapped   81     0.241           NaN         4           NaN              1.000                    NaN
+                           B          Plasmablast_MKI67    1_same_id   37     0.022         0.015         1           1.0              1.000                  1.000
+                           B        Switched_Bm_IGHDneg   3_judgment  673     0.134         0.132        31          32.0              0.871                  0.844
+                           B           Switched_Bm_IGHE      4_extra  569     0.160         0.157        31          33.0              0.839                  0.788
+                           B Switched_activated_Bm_CD86      4_extra  899     0.114         0.114        41          41.0              0.756                  0.756
+                           B         Transitional_B_MME new_unmapped  804     0.144           NaN        33           NaN              0.818                    NaN
+                           B         Unswitched_Bm_CD1C      4_extra  710     0.160         0.159        33          34.0              0.970                  0.941
+                           B          Unswitched_Bm_IL6      4_extra   53    -0.005        -0.021         0           0.0                NaN                    NaN
+                           B       pre-Switched_Bm_JAM3      4_extra  742     0.142         0.140        34          35.0              0.853                  0.829
+                          DC                 DC1_CLEC9A new_unmapped   62     0.253           NaN         1           NaN              1.000                    NaN
+                          DC                   DC2_CD1C  2_same_type  949     0.187         0.182        49          48.0              0.857                  0.854
+                          DC                  DC_CSF2RA new_unmapped   43     0.185           NaN         0           NaN                NaN                    NaN
+                          DC                   pDC_IRF4  2_same_type  796     0.131         0.130        30          30.0              0.867                  0.867
+                        Mono                 cMono_CD14  2_same_type 2208     0.148         0.147       136         136.0              0.860                  0.860
+                        Mono               cMono_CXCL10      4_extra  134     0.146         0.125         8           9.0              1.000                  1.000
+                        Mono               cMono_IFI44L      4_extra  454     0.148         0.146        30          30.0              0.900                  0.900
+                        Mono                 cMono_IL1B      4_extra  393     0.242         0.243        20          22.0              0.850                  0.818
+                        Mono              intMono_GFRA2 new_unmapped  266     0.182           NaN        14           NaN              0.857                    NaN
+                        Mono                ncMono_C1QA      4_extra 1123     0.173         0.173        73          73.0              0.863                  0.863
+                        Mono              ncMono_FCGR3A  2_same_type 1681     0.173         0.172       103         104.0              0.864                  0.865
+                        Mono               ncMono_IFIT1      4_extra  256     0.227         0.226        17          17.0              0.824                  0.824
+                          NK       Mature_NK_dim_FCGR3A   3_judgment 2126     0.137         0.136       102         105.0              0.873                  0.876
+                          NK             NK_bright_XCL1    1_same_id  327     0.027         0.024        13          13.0              0.769                  0.769
+                          NK     Proliferative_NK_MKI67      4_extra   68     0.024         0.019         2           2.0              1.000                  1.000
+                          NK   Terminal_NK_dim_CD160neg      4_extra  503     0.082         0.084        17          17.0              0.941                  0.941
+                          NK       Transitional_NK_GZMK new_unmapped  654     0.187           NaN        33           NaN              0.909                    NaN
+                           T               CD4_CTL_GZMH    1_same_id  749     0.130         0.125        41          41.0              0.902                  0.902
+                           T              CD4_Tcm_CXCR5    1_same_id 1281     0.101         0.098        63          64.0              0.841                  0.844
+                           T             CD4_Tcm_IFI44L      4_extra  310     0.187         0.177        19          19.0              0.789                  0.789
+                           T            CD4_Tem_CCR7neg    1_same_id 1657     0.112         0.112        80          82.0              0.925                  0.927
+                           T         CD4_Tfh-like_CXCR5 new_unmapped 2350     0.123           NaN       126           NaN              0.905                    NaN
+                           T          CD4_Th1-like_GZMK new_unmapped 1711     0.119           NaN        90           NaN              0.900                    NaN
+                           T         CD4_Th17-like_RORC new_unmapped 1523     0.144           NaN        90           NaN              0.889                    NaN
+                           T        CD4_Th22-like_CCR10 new_unmapped  508     0.085           NaN        29           NaN              0.897                    NaN
+                           T                CD4_Th_CCR4 new_unmapped  296     0.143           NaN        13           NaN              0.846                    NaN
+                           T                 CD4_Th_CR1 new_unmapped   38    -0.194           NaN         0           NaN                NaN                    NaN
+                           T                CD4_Th_LMNA new_unmapped  601     0.175           NaN        26           NaN              0.923                    NaN
+                           T           CD4_Th_TNFRSF11A new_unmapped  985     0.117           NaN        51           NaN              0.863                    NaN
+                           T                CD4_Tn_CCR7  2_same_type 4173     0.150         0.149       245         259.0              0.886                  0.865
+                           T               CD4_Tn_CXCR5      4_extra  511     0.140         0.137        21          23.0              0.952                  0.957
+                           T               CD4_Tn_LIMS1      4_extra  292     0.122         0.118        15          15.0              0.933                  0.933
+                           T                CD4_Tn_SOX4      4_extra  481     0.106         0.103        25          23.0              0.920                  0.913
+                           T               CD4_Tr1_IL10 new_unmapped  178     0.050           NaN         5           NaN              0.800                    NaN
+                           T             CD4_Treg_FCRL3      4_extra  854     0.119         0.115        41          42.0              0.902                  0.905
+                           T             CD4_Treg_FOXP3   3_judgment  938     0.132         0.128        47          48.0              0.894                  0.875
+                           T               CD8_CTL_GZMB      4_extra 2063     0.120         0.117       108         113.0              0.880                  0.867
+                           T               CD8_CTL_GZMK      4_extra  755     0.122         0.126        35          37.0              0.857                  0.865
+                           T             CD8_CTL_IFI44L      4_extra   43     0.084         0.085         2           2.0              1.000                  1.000
+                           T             CD8_Tcm_IFI44L    1_same_id  572     0.181         0.189        33          33.0              0.848                  0.818
+                           T            CD8_Tem_CCR7neg    1_same_id 2421     0.117         0.117       123         126.0              0.911                  0.905
+                           T                CD8_Tn_CCR7  2_same_type 3159     0.122         0.123       175         178.0              0.863                  0.854
+                           T                CD8_Tn_SOX4      4_extra   78     0.206         0.176         1           1.0              1.000                  1.000
+                           T           Immature_T_CABP4 new_unmapped  102     0.053           NaN         4           NaN              1.000                    NaN
+                           T               MAIT_SLC4A10    1_same_id 2081     0.111         0.114       113         112.0              0.912                  0.911
+                           T                 gdT1_TRDV1      4_extra  189     0.106         0.112         9           9.0              0.889                  0.889
+                           T                  gdT2_GZMH      4_extra  794     0.161         0.161        45          46.0              0.800                  0.783
+                           T                  gdT2_GZMK      4_extra  338     0.127         0.132        19          20.0              0.947                  0.950
+                           T               gdT2_IL12RB2   3_judgment 1331     0.116         0.117        60          62.0              0.817                  0.806
+hematopoietic_precursor_cell                  HSPC_CD34    1_same_id   47     0.090         0.083         3           3.0              1.000                  1.000
+                       other                 ILC2_IL2RA new_unmapped   18     0.397           NaN         0           NaN                NaN                    NaN
+                       other                   NKT_IFNG new_unmapped   51     0.172           NaN         2           NaN              0.500                    NaN
+                       other                   NKT_NCR1 new_unmapped 1664     0.112           NaN        76           NaN              0.921                    NaN
+                       other      Proliferative_T_MKI67 new_unmapped  319     0.008           NaN        10           NaN              0.700                    NaN
+                    platelet                     MK_GP9      4_extra  331    -0.037        -0.042         8           5.0              0.625                  0.400
+
+=== totals by lineage ===
+                              cell_types        n  n_clear  n_correct  old_n_clear  old_n_correct  median_spearman  old_median_spearman  pct_clear  pct_correct_of_clear  old_pct_correct_of_clear
+lineage                                                                                                                                                                                           
+B                                   14.0   7374.0    362.0      310.0        319.0          268.0            0.143                0.140      4.909                85.635                    84.013
+DC                                   4.0   1850.0     80.0       69.0         78.0           67.0            0.186                0.156      4.324                86.250                    85.897
+Mono                                 8.0   6515.0    401.0      347.0        391.0          338.0            0.173                0.172      6.155                86.534                    86.445
+NK                                   5.0   3678.0    167.0      147.0        137.0          120.0            0.082                0.054      4.541                88.024                    87.591
+T                                   32.0  33362.0   1754.0     1553.0       1355.0         1184.0            0.121                0.120      5.257                88.540                    87.380
+hematopoietic_precursor_cell         1.0     47.0      3.0        3.0          3.0            3.0            0.090                0.083      6.383               100.000                   100.000
+other                                4.0   2052.0     88.0       78.0          0.0            0.0            0.142                  NaN      4.288                88.636                       NaN
+platelet                             1.0    331.0      8.0        5.0          5.0            2.0           -0.037               -0.042      2.417                62.500                    40.000
+ALL                                 69.0  55209.0   2863.0     2512.0       2288.0         1982.0            0.132                0.128      5.186                87.740                    86.626
+
+=== totals by earlier match group ===
+              cell_types        n  n_clear  n_correct  old_n_clear  old_n_correct  median_spearman  old_median_spearman  pct_clear  pct_correct_of_clear  old_pct_correct_of_clear
+group                                                                                                                                                                             
+1_same_id            9.0   9172.0    470.0      421.0        475.0          424.0            0.111                0.112      5.124                89.574                    89.263
+2_same_type          6.0  12966.0    738.0      642.0        755.0          650.0            0.149                0.148      5.692                86.992                    86.093
+3_judgment           5.0   6854.0    340.0      293.0        349.0          298.0            0.134                0.132      4.961                86.176                    85.387
+4_extra             28.0  13721.0    693.0      603.0        709.0          610.0            0.136                0.130      5.051                87.013                    86.037
+new_unmapped        21.0  12496.0    622.0      553.0          0.0            0.0            0.143                  NaN      4.978                88.907                       NaN
+ALL                 69.0  55209.0   2863.0     2512.0       2288.0         1982.0            0.132                0.128      5.186                87.740                    86.626
+
+=== same pairs, both runs ===
+                              pairs  clear_new  clear_old  clear_both  median_pearson
+lineage                                                                              
+B                              6247        310        319         310           0.999
+DC                             1745         79         78          77           0.999
+Mono                           6249        387        391         386           0.999
+NK                             3024        134        137         133           0.999
+T                             25070       1320       1355        1308           0.999
+hematopoietic_precursor_cell     47          3          3           3           1.000
+platelet                        331          8          5           5           0.978
+all: pairs 42,713, median Pearson 0.999
+
+=== specificity (Spearman with beta, same pairs) ===
+                 cima_type                      lineage    n  spearman_own  rank_of_own_among_73                best_column  spearman_best  median_same_lineage_others  median_other_lineages
+         Atypical_Bm_ITGAX                            B  474         0.132                    31              intMono_GFRA2          0.178                       0.130                  0.132
+                  Bn_IFIT3                            B   93         0.198                    31                  DC_CSF2RA          0.304                       0.192                  0.195
+                    Bn_IL6                            B  211         0.146                    27          Plasmablast_MKI67          0.193                       0.152                  0.135
+                  Bn_TCL1A                            B 1786         0.152                    19 Switched_activated_Bm_CD86          0.155                       0.153                  0.147
+              Plasma_IGHA1                            B  242         0.071                    64                     MK_GP9          0.122                       0.081                  0.104
+              Plasma_IGHG1                            B   81         0.241                     4          Plasmablast_MKI67          0.283                       0.099                  0.126
+         Plasmablast_MKI67                            B   37         0.022                    59                 CD4_Th_CR1          0.087                      -0.089                  0.067
+       Switched_Bm_IGHDneg                            B  673         0.134                    24                  DC_CSF2RA          0.152                       0.135                  0.113
+          Switched_Bm_IGHE                            B  569         0.160                    10              ncMono_FCGR3A          0.167                       0.158                  0.120
+Switched_activated_Bm_CD86                            B  899         0.114                     8                  HSPC_CD34          0.117                       0.114                  0.091
+        Transitional_B_MME                            B  804         0.144                    11                   Bn_IFIT3          0.145                       0.144                  0.120
+        Unswitched_Bm_CD1C                            B  710         0.160                     6          Plasmablast_MKI67          0.167                       0.160                  0.141
+         Unswitched_Bm_IL6                            B   53        -0.005                     4                     Bn_IL6          0.002                      -0.015                 -0.105
+      pre-Switched_Bm_JAM3                            B  742         0.142                    30                 DC1_CLEC9A          0.159                       0.143                  0.138
+                DC1_CLEC9A                           DC   62         0.253                    21      Proliferative_T_MKI67          0.314                       0.266                  0.211
+                  DC2_CD1C                           DC  949         0.187                    10              ncMono_FCGR3A          0.201                       0.182                  0.153
+                 DC_CSF2RA                           DC   43         0.185                     9   Terminal_NK_dim_CD160neg          0.252                       0.122                  0.067
+                  pDC_IRF4                           DC  796         0.131                     1                   pDC_IRF4          0.131                       0.123                  0.117
+                cMono_CD14                         Mono 2208         0.148                     4                ncMono_C1QA          0.148                       0.147                  0.109
+              cMono_CXCL10                         Mono  134         0.146                    20      Inflamed_NK_dim_IFIT1          0.184                       0.125                  0.128
+              cMono_IFI44L                         Mono  454         0.148                     5               cMono_CXCL10          0.158                       0.145                  0.096
+                cMono_IL1B                         Mono  393         0.242                     6              intMono_GFRA2          0.250                       0.243                  0.170
+             intMono_GFRA2                         Mono  266         0.182                     2                  DC_CSF2RA          0.188                       0.168                  0.085
+               ncMono_C1QA                         Mono 1123         0.173                    18      pre-Switched_Bm_IFIT3          0.189                       0.173                  0.151
+             ncMono_FCGR3A                         Mono 1681         0.173                    10               cMono_CXCL10          0.186                       0.182                  0.138
+              ncMono_IFIT1                         Mono  256         0.227                     8               cMono_CXCL10          0.239                       0.236                  0.065
+      Mature_NK_dim_FCGR3A                           NK 2126         0.137                    21                 DC1_CLEC9A          0.144                       0.138                  0.133
+            NK_bright_XCL1                           NK  327         0.027                    45               cMono_CXCL10          0.070                       0.035                  0.029
+    Proliferative_NK_MKI67                           NK   68         0.024                    67      pre-Switched_Bm_IFIT3          0.105                       0.031                  0.055
+  Terminal_NK_dim_CD160neg                           NK  503         0.082                    56                   Bn_TCL1A          0.109                       0.084                  0.090
+      Transitional_NK_GZMK                           NK  654         0.187                    53      Proliferative_T_MKI67          0.214                       0.189                  0.191
+              CD4_CTL_GZMH                            T  749         0.130                    12       Mature_NK_dim_FCGR3A          0.147                       0.122                  0.123
+             CD4_Tcm_CXCR5                            T 1281         0.101                    60                     Bn_IL6          0.123                       0.106                  0.110
+            CD4_Tcm_IFI44L                            T  310         0.187                    48      Inflamed_NK_dim_IFIT1          0.222                       0.184                  0.202
+           CD4_Tem_CCR7neg                            T 1657         0.112                    57                 ILC2_IL2RA          0.131                       0.116                  0.118
+        CD4_Tfh-like_CXCR5                            T 2350         0.123                    48         Transitional_B_MME          0.139                       0.124                  0.125
+         CD4_Th1-like_GZMK                            T 1711         0.119                    47 Switched_activated_Bm_CD86          0.130                       0.120                  0.121
+        CD4_Th17-like_RORC                            T 1523         0.144                    29                CD8_Tn_SOX4          0.147                       0.145                  0.137
+       CD4_Th22-like_CCR10                            T  508         0.085                    42                 ILC2_IL2RA          0.105                       0.086                  0.090
+               CD4_Th_CCR4                            T  296         0.143                    37     Proliferative_NK_MKI67          0.178                       0.140                  0.156
+                CD4_Th_CR1                            T   38        -0.194                    55                 cMono_CD14         -0.036                      -0.173                 -0.166
+               CD4_Th_LMNA                            T  601         0.175                    67          Plasmablast_MKI67          0.202                       0.177                  0.194
+          CD4_Th_TNFRSF11A                            T  985         0.117                    61          Unswitched_Bm_IL6          0.149                       0.121                  0.130
+               CD4_Tn_CCR7                            T 4173         0.150                    49       Transitional_NK_GZMK          0.159                       0.153                  0.152
+              CD4_Tn_CXCR5                            T  511         0.140                    49                     MK_GP9          0.162                       0.138                  0.153
+              CD4_Tn_LIMS1                            T  292         0.122                    63                   pDC_IRF4          0.170                       0.123                  0.150
+               CD4_Tn_SOX4                            T  481         0.106                    49                 ILC2_IL2RA          0.135                       0.107                  0.107
+              CD4_Tr1_IL10                            T  178         0.050                    20                 cMono_CD14          0.091                       0.045                  0.040
+            CD4_Treg_FCRL3                            T  854         0.119                    42                 ILC2_IL2RA          0.139                       0.119                  0.127
+            CD4_Treg_FOXP3                            T  938         0.132                     5             CD8_CTL_IFI44L          0.135                       0.128                  0.118
+              CD8_CTL_GZMB                            T 2063         0.120                     8       Mature_NK_dim_FCGR3A          0.126                       0.111                  0.112
+              CD8_CTL_GZMK                            T  755         0.122                    55      Inflamed_NK_dim_IFIT1          0.150                       0.124                  0.128
+            CD8_CTL_IFI44L                            T   43         0.084                    37      Proliferative_T_MKI67          0.135                       0.089                  0.080
+            CD8_Tcm_IFI44L                            T  572         0.181                    18                CD4_Tn_CCR7          0.190                       0.182                  0.166
+           CD8_Tem_CCR7neg                            T 2421         0.117                    30       Mature_NK_dim_FCGR3A          0.124                       0.116                  0.120
+               CD8_Tn_CCR7                            T 3159         0.122                    30             NK_bright_XCL1          0.129                       0.122                  0.119
+               CD8_Tn_SOX4                            T   78         0.206                    18        CD4_Th22-like_CCR10          0.224                       0.206                  0.136
+          Immature_T_CABP4                            T  102         0.053                    73              ncMono_FCGR3A          0.118                       0.071                  0.085
+              MAIT_SLC4A10                            T 2081         0.111                    59                   Bn_IFIT3          0.123                       0.113                  0.118
+                gdT1_TRDV1                            T  189         0.106                    43               Plasma_IGHG1          0.150                       0.105                  0.109
+                 gdT2_GZMH                            T  794         0.161                    20               cMono_CXCL10          0.176                       0.158                  0.160
+                 gdT2_GZMK                            T  338         0.127                    31       Mature_NK_dim_FCGR3A          0.161                       0.122                  0.134
+              gdT2_IL12RB2                            T 1331         0.116                    16     Proliferative_NK_MKI67          0.121                       0.110                  0.113
+                 HSPC_CD34 hematopoietic_precursor_cell   47         0.090                    13               Plasma_IGHG1          0.102                         NaN                  0.082
+                    MK_GP9                     platelet  331        -0.037                    71               cMono_CXCL10          0.080                         NaN                 -0.020
+                ILC2_IL2RA                         None   18         0.397                     3      Inflamed_NK_dim_IFIT1          0.432                       0.228                  0.207
+                  NKT_IFNG                         None   51         0.172                    11     Proliferative_NK_MKI67          0.196                       0.172                  0.146
+                  NKT_NCR1                         None 1664         0.112                     8                  DC_CSF2RA          0.115                       0.111                  0.107
+     Proliferative_T_MKI67                         None  319         0.008                    36                 DC1_CLEC9A          0.047                       0.004                  0.008
+
+own column best of 73 for 1 of 69 types; median rank 29; own > median other-lineage column for 39 of 69
+
+Written to /home/shreyas/scooby/scooby_inference/eval_out_cima_cells/

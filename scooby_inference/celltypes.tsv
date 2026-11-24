@@ -1,0 +1,174 @@
+scheme	label	key	cl_id	cl_name	coarse_id	coarse_name
+azimuth_pbmc_l1	B	b	CL:0000236	B cell	CL:0000236	B cell
+azimuth_pbmc_l1	CD4_T	cd4_t	CL:0000624	CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+azimuth_pbmc_l1	CD8_T	cd8_t	CL:0000625	CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+azimuth_pbmc_l1	DC	dc	CL:0000451	dendritic cell	CL:0000451	dendritic cell
+azimuth_pbmc_l1	Mono	mono	CL:0000576	monocyte	CL:0000576	monocyte
+azimuth_pbmc_l1	NK	nk	CL:0000623	natural killer cell	CL:0000623	natural killer cell
+azimuth_pbmc_l1	other_T	other_t	CL:0000084	T cell	CL:0000084	T cell
+azimuth_pbmc_l1	other	other				
+azimuth_pbmc_l1	PBMC	pbmc	CL:2000001	peripheral blood mononuclear cell	CL:2000001	peripheral blood mononuclear cell
+azimuth_pbmc_l2	B_naive	b_naive	CL:0000788	naive B cell	CL:0000236	B cell
+azimuth_pbmc_l2	B_intermediate	b_intermediate	CL:0000236	B cell	CL:0000236	B cell
+azimuth_pbmc_l2	B_memory	b_memory	CL:0000787	memory B cell	CL:0000236	B cell
+azimuth_pbmc_l2	Plasmablast	plasmablast	CL:0000980	plasmablast	CL:0000946	antibody secreting cell
+azimuth_pbmc_l2	CD14_Mono	cd14_mono	CL:0000860	classical monocyte	CL:0000576	monocyte
+azimuth_pbmc_l2	CD16_Mono	cd16_mono	CL:0000875	non-classical monocyte	CL:0000576	monocyte
+azimuth_pbmc_l2	CD4_Naive	cd4_naive	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+azimuth_pbmc_l2	CD4_TCM	cd4_tcm	CL:0000904	central memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+azimuth_pbmc_l2	CD4_TEM	cd4_tem	CL:0000905	effector memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+azimuth_pbmc_l2	CD4_CTL	cd4_ctl	CL:0000934	CD4-positive, alpha-beta cytotoxic T cell	CL:0000624	CD4-positive, alpha-beta T cell
+azimuth_pbmc_l2	CD4_Proliferating	cd4_proliferating	CL:4033075	cycling CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+azimuth_pbmc_l2	Treg	treg	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell	CL:0000624	CD4-positive, alpha-beta T cell
+azimuth_pbmc_l2	CD8_Naive	cd8_naive	CL:0000900	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+azimuth_pbmc_l2	CD8_TCM	cd8_tcm	CL:0000907	central memory CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+azimuth_pbmc_l2	CD8_TEM	cd8_tem	CL:0000913	effector memory CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+azimuth_pbmc_l2	CD8_Proliferating	cd8_proliferating	CL:4033074	cycling CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+azimuth_pbmc_l2	MAIT	mait	CL:0000940	mucosal-associated invariant T cell	CL:0000084	T cell
+azimuth_pbmc_l2	gdT	gdt	CL:0000798	gamma-delta T cell	CL:0000084	T cell
+azimuth_pbmc_l2	dnT	dnt	CL:0000789	alpha-beta T cell	CL:0000084	T cell
+azimuth_pbmc_l2	NK	nk	CL:0000623	natural killer cell	CL:0000623	natural killer cell
+azimuth_pbmc_l2	NK_CD56bright	nk_cd56bright	CL:0000938	CD16-negative, CD56-bright natural killer cell, human	CL:0000623	natural killer cell
+azimuth_pbmc_l2	NK_Proliferating	nk_proliferating	CL:4033071	cycling natural killer cell	CL:0000623	natural killer cell
+azimuth_pbmc_l2	ILC	ilc	CL:0001065	innate lymphoid cell	CL:0001065	innate lymphoid cell
+azimuth_pbmc_l2	cDC1	cdc1	CL:0002394	CD141-positive myeloid dendritic cell	CL:0000451	dendritic cell
+azimuth_pbmc_l2	cDC2	cdc2	CL:0002399	CD1c-positive myeloid dendritic cell	CL:0000451	dendritic cell
+azimuth_pbmc_l2	pDC	pdc	CL:0000784	plasmacytoid dendritic cell	CL:0000451	dendritic cell
+azimuth_pbmc_l2	ASDC	asdc	CL:0017009	Axl+ dendritic cell, human	CL:0000451	dendritic cell
+azimuth_pbmc_l2	HSPC	hspc	CL:0008001	hematopoietic precursor cell	CL:0008001	hematopoietic precursor cell
+azimuth_pbmc_l2	Platelet	platelet	CL:0000233	platelet	CL:0000233	platelet
+azimuth_pbmc_l2	Eryth	eryth	CL:0000232	erythrocyte	CL:0000232	erythrocyte
+azimuth_pbmc_l2	Doublet	doublet				
+cima	Bn_TCL1A	bn_tcl1a	CL:0000788	naive B cell	CL:0000236	B cell
+cima	Bn_IFIT3	bn_ifit3	CL:0000788	naive B cell	CL:0000236	B cell
+cima	Bn_IL6	bn_il6	CL:0000788	naive B cell	CL:0000236	B cell
+cima	Transitional_B_MME	transitional_b_mme	CL:0000818	transitional stage B cell	CL:0000236	B cell
+cima	Unswitched_Bm_CD1C	unswitched_bm_cd1c	CL:0000970	unswitched memory B cell	CL:0000236	B cell
+cima	Unswitched_Bm_IL6	unswitched_bm_il6	CL:0000970	unswitched memory B cell	CL:0000236	B cell
+cima	pre-Switched_Bm_JAM3	pre_switched_bm_jam3	CL:0000970	unswitched memory B cell	CL:0000236	B cell
+cima	Switched_Bm_IGHDneg	switched_bm_ighdneg	CL:0001053	IgD-negative memory B cell	CL:0000236	B cell
+cima	Switched_Bm_IGHE	switched_bm_ighe	CL:0000948	IgE memory B cell	CL:0000236	B cell
+cima	Switched_activated_Bm_CD86	switched_activated_bm_cd86	CL:0000972	class switched memory B cell	CL:0000236	B cell
+cima	Atypical_Bm_ITGAX	atypical_bm_itgax	CL:4033094	age-associated B cell	CL:0000236	B cell
+cima	Plasmablast_MKI67	plasmablast_mki67	CL:0000980	plasmablast	CL:0000946	antibody secreting cell
+cima	Plasma_IGHA1	plasma_igha1	CL:0000987	IgA plasma cell	CL:0000946	antibody secreting cell
+cima	Plasma_IGHG1	plasma_ighg1	CL:0000985	IgG plasma cell	CL:0000946	antibody secreting cell
+cima	CD4_Tn_CCR7	cd4_tn_ccr7	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Tn_CXCR5	cd4_tn_cxcr5	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Tn_LIMS1	cd4_tn_lims1	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Tn_SOX4	cd4_tn_sox4	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Tcm_CXCR5	cd4_tcm_cxcr5	CL:0000904	central memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Tcm_IFI44L	cd4_tcm_ifi44l	CL:0000904	central memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Tem_CCR7neg	cd4_tem_ccr7neg	CL:0000905	effector memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Th_CCR4	cd4_th_ccr4	CL:0000492	CD4-positive helper T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Th_CR1	cd4_th_cr1	CL:0000492	CD4-positive helper T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Th_LMNA	cd4_th_lmna	CL:0000492	CD4-positive helper T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Th_TNFRSF11A	cd4_th_tnfrsf11a	CL:0000492	CD4-positive helper T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Th1-like_GZMK	cd4_th1_like_gzmk	CL:0000545	T-helper 1 cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Th17-like_RORC	cd4_th17_like_rorc	CL:0000899	T-helper 17 cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Th22-like_CCR10	cd4_th22_like_ccr10	CL:0001042	T-helper 22 cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Tfh-like_CXCR5	cd4_tfh_like_cxcr5	CL:0002038	T follicular helper cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Tr1_IL10	cd4_tr1_il10	CL:0000901	Tr1 cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Treg_FOXP3	cd4_treg_foxp3	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_Treg_FCRL3	cd4_treg_fcrl3	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD4_CTL_GZMH	cd4_ctl_gzmh	CL:0000934	CD4-positive, alpha-beta cytotoxic T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	CD8_Tn_CCR7	cd8_tn_ccr7	CL:0000900	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+cima	CD8_Tn_SOX4	cd8_tn_sox4	CL:0000900	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+cima	CD8_Tcm_IFI44L	cd8_tcm_ifi44l	CL:0000907	central memory CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+cima	CD8_Tem_CCR7neg	cd8_tem_ccr7neg	CL:0000913	effector memory CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+cima	CD8_CTL_GZMB	cd8_ctl_gzmb	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell	CL:0000625	CD8-positive, alpha-beta T cell
+cima	CD8_CTL_GZMK	cd8_ctl_gzmk	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell	CL:0000625	CD8-positive, alpha-beta T cell
+cima	CD8_CTL_IFI44L	cd8_ctl_ifi44l	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell	CL:0000625	CD8-positive, alpha-beta T cell
+cima	MAIT_SLC4A10	mait_slc4a10	CL:0000940	mucosal-associated invariant T cell	CL:0000084	T cell
+cima	gdT1_TRDV1	gdt1_trdv1	CL:0000798	gamma-delta T cell	CL:0000084	T cell
+cima	gdT2_GZMH	gdt2_gzmh	CL:0000798	gamma-delta T cell	CL:0000084	T cell
+cima	gdT2_GZMK	gdt2_gzmk	CL:0000798	gamma-delta T cell	CL:0000084	T cell
+cima	gdT2_IL12RB2	gdt2_il12rb2	CL:0000798	gamma-delta T cell	CL:0000084	T cell
+cima	NKT_IFNG	nkt_ifng	CL:0000932	type II NK T cell secreting interferon-gamma	CL:0000084	T cell
+cima	NKT_NCR1	nkt_ncr1	CL:0000814	mature NK T cell	CL:0000084	T cell
+cima	Immature_T_CABP4	immature_t_cabp4	CL:0002420	immature T cell	CL:0000084	T cell
+cima	Proliferative_T_MKI67	proliferative_t_mki67	CL:4033069	cycling T cell	CL:0000084	T cell
+cima	NK_bright_XCL1	nk_bright_xcl1	CL:0000938	CD16-negative, CD56-bright natural killer cell, human	CL:0000623	natural killer cell
+cima	Mature_NK_dim_FCGR3A	mature_nk_dim_fcgr3a	CL:0000939	CD16-positive, CD56-dim natural killer cell, human	CL:0000623	natural killer cell
+cima	Terminal_NK_dim_CD160neg	terminal_nk_dim_cd160neg	CL:0000939	CD16-positive, CD56-dim natural killer cell, human	CL:0000623	natural killer cell
+cima	Transitional_NK_GZMK	transitional_nk_gzmk	CL:0000623	natural killer cell	CL:0000623	natural killer cell
+cima	Proliferative_NK_MKI67	proliferative_nk_mki67	CL:4033071	cycling natural killer cell	CL:0000623	natural killer cell
+cima	ILC2_IL2RA	ilc2_il2ra	CL:0001069	group 2 innate lymphoid cell	CL:0001065	innate lymphoid cell
+cima	cMono_CD14	cmono_cd14	CL:0000860	classical monocyte	CL:0000576	monocyte
+cima	cMono_CXCL10	cmono_cxcl10	CL:0000860	classical monocyte	CL:0000576	monocyte
+cima	cMono_IFI44L	cmono_ifi44l	CL:0000860	classical monocyte	CL:0000576	monocyte
+cima	cMono_IL1B	cmono_il1b	CL:0000860	classical monocyte	CL:0000576	monocyte
+cima	intMono_GFRA2	intmono_gfra2	CL:0002393	intermediate monocyte	CL:0000576	monocyte
+cima	ncMono_C1QA	ncmono_c1qa	CL:0000875	non-classical monocyte	CL:0000576	monocyte
+cima	ncMono_FCGR3A	ncmono_fcgr3a	CL:0000875	non-classical monocyte	CL:0000576	monocyte
+cima	ncMono_IFIT1	ncmono_ifit1	CL:0000875	non-classical monocyte	CL:0000576	monocyte
+cima	DC1_CLEC9A	dc1_clec9a	CL:0002394	CD141-positive myeloid dendritic cell	CL:0000451	dendritic cell
+cima	DC2_CD1C	dc2_cd1c	CL:0002399	CD1c-positive myeloid dendritic cell	CL:0000451	dendritic cell
+cima	DC_CSF2RA	dc_csf2ra	CL:0000451	dendritic cell	CL:0000451	dendritic cell
+cima	pDC_IRF4	pdc_irf4	CL:0000784	plasmacytoid dendritic cell	CL:0000451	dendritic cell
+cima	HSPC_CD34	hspc_cd34	CL:0008001	hematopoietic precursor cell	CL:0008001	hematopoietic precursor cell
+cima	MK_GP9	mk_gp9	CL:0000556	megakaryocyte	CL:0000556	megakaryocyte
+cima	CD4_Tem_CCR5	cd4_tem_ccr5	CL:0000905	effector memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+cima	pre-Switched_Bm_IFIT3	pre_switched_bm_ifit3	CL:0000970	unswitched memory B cell	CL:0000236	B cell
+cima	AS-DC	as_dc	CL:0017009	Axl+ dendritic cell, human	CL:0000451	dendritic cell
+cima	Inflamed_NK_dim_IFIT1	inflamed_nk_dim_ifit1	CL:0000939	CD16-positive, CD56-dim natural killer cell, human	CL:0000623	natural killer cell
+sceqtlgen_vanderwijst2018	nk	nk	CL:0000623	natural killer cell	CL:0000623	natural killer cell
+sceqtlgen_vanderwijst2018	dend	dend	CL:0000451	dendritic cell	CL:0000451	dendritic cell
+sceqtlgen_vanderwijst2018	b-cells	b_cells	CL:0000236	B cell	CL:0000236	B cell
+sceqtlgen_vanderwijst2018	t_cd4	t_cd4	CL:0000624	CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+sceqtlgen_vanderwijst2018	t_cd8	t_cd8	CL:0000625	CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+sceqtlgen_vanderwijst2018	nc-mono	nc_mono	CL:0000875	non-classical monocyte	CL:0000576	monocyte
+sceqtlgen_vanderwijst2018	c-mono	c_mono	CL:0000860	classical monocyte	CL:0000576	monocyte
+sceqtlgen_vanderwijst2018	mono	mono	CL:0000576	monocyte	CL:0000576	monocyte
+sceqtlgen_vanderwijst2018	pbmc	pbmc	CL:2000001	peripheral blood mononuclear cell	CL:2000001	peripheral blood mononuclear cell
+sceqtlgen_1mscbloodnl	CD8T	cd8t	CL:0000625	CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+sceqtlgen_1mscbloodnl	megakaryocyte	megakaryocyte	CL:0000556	megakaryocyte	CL:0000556	megakaryocyte
+sceqtlgen_1mscbloodnl	DC	dc	CL:0000451	dendritic cell	CL:0000451	dendritic cell
+sceqtlgen_1mscbloodnl	NK	nk	CL:0000623	natural killer cell	CL:0000623	natural killer cell
+sceqtlgen_1mscbloodnl	CD4T	cd4t	CL:0000624	CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+sceqtlgen_1mscbloodnl	B	b	CL:0000236	B cell	CL:0000236	B cell
+sceqtlgen_1mscbloodnl	bulk	bulk	CL:2000001	peripheral blood mononuclear cell	CL:2000001	peripheral blood mononuclear cell
+sceqtlgen_1mscbloodnl	monocyte	monocyte	CL:0000576	monocyte	CL:0000576	monocyte
+sceqtlgen_1mscbloodnl	unknown	unknown				
+eqtlcatalogue_r8	Age-associated_B_cells	age_associated_b_cells	CL:0000787	memory B cell	CL:0000236	B cell
+eqtlcatalogue_r8	Alveolar_macrophages	alveolar_macrophages				
+eqtlcatalogue_r8	CD16+_NK_cells	cd16_nk_cells	CL:0000623	natural killer cell	CL:0000623	natural killer cell
+eqtlcatalogue_r8	CD16-_NK_cells	cd16_nk_cells	CL:0000623	natural killer cell	CL:0000623	natural killer cell
+eqtlcatalogue_r8	Classical_monocytes	classical_monocytes	CL:0000860	classical monocyte	CL:0000576	monocyte
+eqtlcatalogue_r8	Cycling_T_cells	cycling_t_cells	CL:0000084	T cell	CL:0000084	T cell
+eqtlcatalogue_r8	DC2	dc2	CL:0000990	conventional dendritic cell	CL:0000451	dendritic cell
+eqtlcatalogue_r8	Intermediate_macrophages	intermediate_macrophages				
+eqtlcatalogue_r8	MAIT_cells	mait_cells	CL:0000940	mucosal-associated invariant T cell	CL:0000084	T cell
+eqtlcatalogue_r8	Megakaryocyte_precursor	megakaryocyte_precursor	CL:0000553	megakaryocyte progenitor cell	CL:0008001	hematopoietic precursor cell
+eqtlcatalogue_r8	Megakaryocytes_platelets	megakaryocytes_platelets	CL:0000556	megakaryocyte	CL:0000556	megakaryocyte
+eqtlcatalogue_r8	Memory_B_cells	memory_b_cells	CL:0000787	memory B cell	CL:0000236	B cell
+eqtlcatalogue_r8	Naive_B_cells	naive_b_cells	CL:0000788	naive B cell	CL:0000236	B cell
+eqtlcatalogue_r8	NK_cells	nk_cells	CL:0000623	natural killer cell	CL:0000623	natural killer cell
+eqtlcatalogue_r8	Non-classical_monocytes	non_classical_monocytes	CL:0000875	non-classical monocyte	CL:0000576	monocyte
+eqtlcatalogue_r8	Regulatory_T_cells	regulatory_t_cells	CL:0000815	regulatory T cell	CL:0000084	T cell
+eqtlcatalogue_r8	T_agonist_	t_agonist	CL:0000084	T cell	CL:0000084	T cell
+eqtlcatalogue_r8	Tcm_Naive_cytotoxic_T_cells	tcm_naive_cytotoxic_t_cells	CL:0000907	central memory CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+eqtlcatalogue_r8	Tcm_Naive_helper_T_cells	tcm_naive_helper_t_cells	CL:0000904	central memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+eqtlcatalogue_r8	Tem_Effector_helper_T_cells	tem_effector_helper_t_cells	CL:0000905	effector memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+eqtlcatalogue_r8	Tem_Temra_cytotoxic_T_cells	tem_temra_cytotoxic_t_cells	CL:0001062	effector memory CD8-positive, alpha-beta T cell, terminally differentiated	CL:0000625	CD8-positive, alpha-beta T cell
+eqtlcatalogue_r8	Tem_Trm_cytotoxic_T_cells	tem_trm_cytotoxic_t_cells	CL:0000913	effector memory CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+aida	CD14+_Monocyte	cd14_monocyte	CL:0000860	classical monocyte	CL:0000576	monocyte
+aida	CD16+_Monocyte	cd16_monocyte	CL:0000875	non-classical monocyte	CL:0000576	monocyte
+aida	cDC2	cdc2	CL:0002399	CD1c-positive myeloid dendritic cell	CL:0000451	dendritic cell
+aida	naive_B	naive_b	CL:0000788	naive B cell	CL:0000236	B cell
+aida	memory_B_IGHMhi	memory_b_ighmhi	CL:0000970	unswitched memory B cell	CL:0000236	B cell
+aida	memory_B_IGHMlo	memory_b_ighmlo	CL:0000972	class switched memory B cell	CL:0000236	B cell
+aida	atypical_B	atypical_b	CL:4033094	age-associated B cell	CL:0000236	B cell
+aida	CD4+_T_naive	cd4_t_naive	CL:0000895	naive thymus-derived CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+aida	CD4+_T_cm	cd4_t_cm	CL:0000904	central memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+aida	CD4+_T_em	cd4_t_em	CL:0000905	effector memory CD4-positive, alpha-beta T cell	CL:0000624	CD4-positive, alpha-beta T cell
+aida	CD4+_T_cyt	cd4_t_cyt	CL:0000934	CD4-positive, alpha-beta cytotoxic T cell	CL:0000624	CD4-positive, alpha-beta T cell
+aida	Treg	treg	CL:0000792	CD4-positive, CD25-positive, alpha-beta regulatory T cell	CL:0000624	CD4-positive, alpha-beta T cell
+aida	CD8+_T_naive	cd8_t_naive	CL:0000900	naive thymus-derived CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+aida	CD8+_T_GZMKhi	cd8_t_gzmkhi	CL:0000913	effector memory CD8-positive, alpha-beta T cell	CL:0000625	CD8-positive, alpha-beta T cell
+aida	CD8+_T_GZMBhi	cd8_t_gzmbhi	CL:0000794	CD8-positive, alpha-beta cytotoxic T cell	CL:0000625	CD8-positive, alpha-beta T cell
+aida	MAIT	mait	CL:0000940	mucosal-associated invariant T cell	CL:0000084	T cell
+aida	gdT_GZMKhi	gdt_gzmkhi	CL:0000798	gamma-delta T cell	CL:0000084	T cell
+aida	gdT_GZMBhi	gdt_gzmbhi	CL:0000798	gamma-delta T cell	CL:0000084	T cell
+aida	CD16+_NK	cd16_nk	CL:0000939	CD16-positive, CD56-dim natural killer cell, human	CL:0000623	natural killer cell
+aida	CD56+_NK	cd56_nk	CL:0000938	CD16-negative, CD56-bright natural killer cell, human	CL:0000623	natural killer cell

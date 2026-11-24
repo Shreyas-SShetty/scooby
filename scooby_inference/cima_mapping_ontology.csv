@@ -1,0 +1,70 @@
+study_label,tissue_label,cl_id,cl_name,pred_columns,relation,distance,n_columns,via,ontology_pred_columns,note,current_pred_columns,current_group,agrees
+CIMA,Bn_IFIT3,CL:0000788,naive B cell,B_cell,exact,0,1,,B_cell,,B_cell,4_extra,True
+CIMA,Bn_IL6,CL:0000788,naive B cell,B_cell,exact,0,1,,B_cell,,B_cell,4_extra,True
+CIMA,Bn_TCL1A,CL:0000788,naive B cell,B_cell,exact,0,1,,B_cell,,B_cell,3_judgment,True
+CIMA,CD4_CTL_GZMH,CL:0000934,"CD4-positive, alpha-beta cytotoxic T cell",CD4+_CTL_cell,exact,0,1,,CD4+_CTL_cell,,CD4+_CTL_cell,1_same_id,True
+CIMA,CD4_Tcm_CXCR5,CL:0000904,"central memory CD4-positive, alpha-beta T cell",CD4+_TCM_cell,exact,0,1,,CD4+_TCM_cell,,CD4+_TCM_cell,1_same_id,True
+CIMA,CD4_Tcm_IFI44L,CL:0000904,"central memory CD4-positive, alpha-beta T cell",CD4+_TCM_cell,exact,0,1,,CD4+_TCM_cell,,CD4+_TCM_cell,4_extra,True
+CIMA,CD4_Tem_CCR5,CL:0000905,"effector memory CD4-positive, alpha-beta T cell",CD4+_TEM_cell,exact,0,1,,CD4+_TEM_cell,,,,
+CIMA,CD4_Tem_CCR7neg,CL:0000905,"effector memory CD4-positive, alpha-beta T cell",CD4+_TEM_cell,exact,0,1,,CD4+_TEM_cell,,CD4+_TEM_cell,1_same_id,True
+CIMA,CD4_Tn_CCR7,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",CD4+_T_cell,exact,0,1,,CD4+_T_cell,,CD4+_T_cell,2_same_type,True
+CIMA,CD4_Tn_CXCR5,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",CD4+_T_cell,exact,0,1,,CD4+_T_cell,,CD4+_T_cell,4_extra,True
+CIMA,CD4_Tn_LIMS1,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",CD4+_T_cell,exact,0,1,,CD4+_T_cell,,CD4+_T_cell,4_extra,True
+CIMA,CD4_Tn_SOX4,CL:0000895,"naive thymus-derived CD4-positive, alpha-beta T cell",CD4+_T_cell,exact,0,1,,CD4+_T_cell,,CD4+_T_cell,4_extra,True
+CIMA,CD8_Tcm_IFI44L,CL:0000907,"central memory CD8-positive, alpha-beta T cell",CD8+_TCM_cell,exact,0,1,,CD8+_TCM_cell,,CD8+_TCM_cell,1_same_id,True
+CIMA,CD8_Tem_CCR7neg,CL:0000913,"effector memory CD8-positive, alpha-beta T cell",CD8+_TEM_cell,exact,0,1,,CD8+_TEM_cell,,CD8+_TEM_cell,1_same_id,True
+CIMA,CD8_Tn_CCR7,CL:0000900,"naive thymus-derived CD8-positive, alpha-beta T cell",CD8+_T_cell,exact,0,1,,CD8+_T_cell,,CD8+_T_cell,2_same_type,True
+CIMA,CD8_Tn_SOX4,CL:0000900,"naive thymus-derived CD8-positive, alpha-beta T cell",CD8+_T_cell,exact,0,1,,CD8+_T_cell,,CD8+_T_cell,4_extra,True
+CIMA,DC_CSF2RA,CL:0000451,dendritic cell,dendritic_cell,exact,0,1,,dendritic_cell,,,,
+CIMA,HSPC_CD34,CL:0008001,hematopoietic precursor cell,hematopoietic_precursor_cell,exact,0,1,,hematopoietic_precursor_cell,,hematopoietic_precursor_cell,1_same_id,True
+CIMA,Inflamed_NK_dim_IFIT1,CL:0000939,"CD16-positive, CD56-dim natural killer cell, human",NK_cell,exact,0,1,,NK_cell,,,,
+CIMA,MAIT_SLC4A10,CL:0000940,mucosal-associated invariant T cell,MAIT_cell,exact,0,1,,MAIT_cell,,MAIT_cell,1_same_id,True
+CIMA,Mature_NK_dim_FCGR3A,CL:0000939,"CD16-positive, CD56-dim natural killer cell, human",NK_cell,exact,0,1,,NK_cell,,NK_cell,3_judgment,True
+CIMA,NK_bright_XCL1,CL:0000938,"CD16-negative, CD56-bright natural killer cell, human",CD56+_NK_cell,exact,0,1,,CD56+_NK_cell,,CD56+_NK_cell,1_same_id,True
+CIMA,Plasmablast_MKI67,CL:0000980,plasmablast,plasmablast,exact,0,1,,plasmablast,,plasmablast,1_same_id,True
+CIMA,Proliferative_NK_MKI67,CL:4033071,cycling natural killer cell,NK_cell,exact,0,1,,NK_cell,,NK_cell,4_extra,True
+CIMA,Terminal_NK_dim_CD160neg,CL:0000939,"CD16-positive, CD56-dim natural killer cell, human",NK_cell,exact,0,1,,NK_cell,,NK_cell,4_extra,True
+CIMA,Transitional_B_MME,CL:0000818,transitional stage B cell,B_cell,exact,0,1,,B_cell,,,,
+CIMA,Transitional_NK_GZMK,CL:0000623,natural killer cell,NK_cell,exact,0,1,,NK_cell,,,,
+CIMA,cMono_CD14,CL:0000860,classical monocyte,monocyte,exact,0,1,,monocyte,,monocyte,2_same_type,True
+CIMA,cMono_CXCL10,CL:0000860,classical monocyte,monocyte,exact,0,1,,monocyte,,monocyte,4_extra,True
+CIMA,cMono_IFI44L,CL:0000860,classical monocyte,monocyte,exact,0,1,,monocyte,,monocyte,4_extra,True
+CIMA,cMono_IL1B,CL:0000860,classical monocyte,monocyte,exact,0,1,,monocyte,,monocyte,4_extra,True
+CIMA,gdT1_TRDV1,CL:0000798,gamma-delta T cell,gdT_cell,exact,0,1,,gdT_cell,,gdT_cell,4_extra,True
+CIMA,gdT2_GZMH,CL:0000798,gamma-delta T cell,gdT_cell,exact,0,1,,gdT_cell,,gdT_cell,4_extra,True
+CIMA,gdT2_GZMK,CL:0000798,gamma-delta T cell,gdT_cell,exact,0,1,,gdT_cell,,gdT_cell,4_extra,True
+CIMA,gdT2_IL12RB2,CL:0000798,gamma-delta T cell,gdT_cell,exact,0,1,,gdT_cell,,gdT_cell,3_judgment,True
+CIMA,ncMono_C1QA,CL:0000875,non-classical monocyte,CD16+_monocyte,exact,0,1,,CD16+_monocyte,,CD16+_monocyte,4_extra,True
+CIMA,ncMono_FCGR3A,CL:0000875,non-classical monocyte,CD16+_monocyte,exact,0,1,,CD16+_monocyte,,CD16+_monocyte,2_same_type,True
+CIMA,ncMono_IFIT1,CL:0000875,non-classical monocyte,CD16+_monocyte,exact,0,1,,CD16+_monocyte,,CD16+_monocyte,4_extra,True
+CIMA,pDC_IRF4,CL:0000784,plasmacytoid dendritic cell,plasmacytoid_dendritic_cell,exact,0,1,,plasmacytoid_dendritic_cell,,plasmacytoid_dendritic_cell,2_same_type,True
+CIMA,Atypical_Bm_ITGAX,CL:4033094,age-associated B cell,memory_B_cell,subtype_of,1,1,CL:0000787 memory B cell,memory_B_cell,,memory_B_cell,4_extra,True
+CIMA,CD4_Tr1_IL10,CL:0000901,Tr1 cell,Treg_memory,subtype_of,1,1,CL:0000815 regulatory T cell,Treg_memory,,,,
+CIMA,CD4_Treg_FCRL3,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",Treg_memory,subtype_of,1,1,CL:0000815 regulatory T cell,Treg_memory,,Treg_memory,4_extra,True
+CIMA,CD4_Treg_FOXP3,CL:0000792,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",Treg_memory,subtype_of,1,1,CL:0000815 regulatory T cell,Treg_memory,,Treg_memory,3_judgment,True
+CIMA,Switched_Bm_IGHDneg,CL:0001053,IgD-negative memory B cell,memory_B_cell,subtype_of,1,1,CL:0000787 memory B cell,memory_B_cell,,memory_B_cell,3_judgment,True
+CIMA,Switched_activated_Bm_CD86,CL:0000972,class switched memory B cell,memory_B_cell,subtype_of,1,1,CL:0000787 memory B cell,memory_B_cell,,memory_B_cell,4_extra,True
+CIMA,Unswitched_Bm_CD1C,CL:0000970,unswitched memory B cell,memory_B_cell,subtype_of,1,1,CL:0000787 memory B cell,memory_B_cell,,memory_B_cell,4_extra,True
+CIMA,Unswitched_Bm_IL6,CL:0000970,unswitched memory B cell,memory_B_cell,subtype_of,1,1,CL:0000787 memory B cell,memory_B_cell,,memory_B_cell,4_extra,True
+CIMA,pre-Switched_Bm_IFIT3,CL:0000970,unswitched memory B cell,memory_B_cell,subtype_of,1,1,CL:0000787 memory B cell,memory_B_cell,,,,
+CIMA,pre-Switched_Bm_JAM3,CL:0000970,unswitched memory B cell,memory_B_cell,subtype_of,1,1,CL:0000787 memory B cell,memory_B_cell,,memory_B_cell,4_extra,True
+CIMA,DC1_CLEC9A,CL:0002394,CD141-positive myeloid dendritic cell,dendritic_cell,subtype_of,2,1,CL:0000990 conventional dendritic cell,dendritic_cell,,,,
+CIMA,DC2_CD1C,CL:0002399,CD1c-positive myeloid dendritic cell,dendritic_cell,subtype_of,2,1,CL:0000990 conventional dendritic cell,dendritic_cell,,dendritic_cell,2_same_type,True
+CIMA,Switched_Bm_IGHE,CL:0000948,IgE memory B cell,memory_B_cell,subtype_of,3,1,CL:0000787 memory B cell,memory_B_cell,,memory_B_cell,4_extra,True
+CIMA,Immature_T_CABP4,CL:0002420,immature T cell,dnT_cell,broader_than,2,1,CL:0002489 double negative thymocyte,dnT_cell,,,,
+CIMA,MK_GP9,CL:0000556,megakaryocyte,platelet,related_via,2,1,CL:0000763 myeloid cell,platelet,,platelet,4_extra,True
+CIMA,intMono_GFRA2,CL:0002393,intermediate monocyte,CD16+_monocyte;monocyte,related_via,2,2,CL:0000576 monocyte,CD16+_monocyte;monocyte,,,,
+CIMA,AS-DC,CL:0017009,"Axl+ dendritic cell, human",dendritic_cell;plasmacytoid_dendritic_cell,related_via,3,2,CL:0000451 dendritic cell,dendritic_cell;plasmacytoid_dendritic_cell,,,,
+CIMA,Plasma_IGHA1,CL:0000987,IgA plasma cell,plasmablast,related_via,4,1,CL:0000946 antibody secreting cell,plasmablast,,,,
+CIMA,Plasma_IGHG1,CL:0000985,IgG plasma cell,plasmablast,related_via,4,1,CL:0000946 antibody secreting cell,plasmablast,,,,
+CIMA,CD4_Th_CCR4,CL:0000492,CD4-positive helper T cell,CD4+_TEM_cell,manual,2,2,"CL:0000624 CD4-positive, alpha-beta T cell",CD4+_CTL_cell;CD4+_T_cell,CD4 helper subsets are memory/effector cells; the ontology linked them to naive CD4,,,
+CIMA,CD4_Th_CR1,CL:0000492,CD4-positive helper T cell,CD4+_TEM_cell,manual,2,2,"CL:0000624 CD4-positive, alpha-beta T cell",CD4+_CTL_cell;CD4+_T_cell,CD4 helper subsets are memory/effector cells; the ontology linked them to naive CD4,,,
+CIMA,CD4_Th_LMNA,CL:0000492,CD4-positive helper T cell,CD4+_TEM_cell,manual,2,2,"CL:0000624 CD4-positive, alpha-beta T cell",CD4+_CTL_cell;CD4+_T_cell,CD4 helper subsets are memory/effector cells; the ontology linked them to naive CD4,,,
+CIMA,CD4_Th_TNFRSF11A,CL:0000492,CD4-positive helper T cell,CD4+_TEM_cell,manual,2,2,"CL:0000624 CD4-positive, alpha-beta T cell",CD4+_CTL_cell;CD4+_T_cell,CD4 helper subsets are memory/effector cells; the ontology linked them to naive CD4,,,
+CIMA,CD8_CTL_GZMB,CL:0000794,"CD8-positive, alpha-beta cytotoxic T cell",CD8+_TEM_cell,manual,2,1,"CL:0000625 CD8-positive, alpha-beta T cell",CD8+_T_cell,GZMB/GZMK cytotoxic CD8 cells are effector memory; the ontology linked them to naive CD8,CD8+_TEM_cell,4_extra,True
+CIMA,CD8_CTL_GZMK,CL:0000794,"CD8-positive, alpha-beta cytotoxic T cell",CD8+_TEM_cell,manual,2,1,"CL:0000625 CD8-positive, alpha-beta T cell",CD8+_T_cell,GZMB/GZMK cytotoxic CD8 cells are effector memory; the ontology linked them to naive CD8,CD8+_TEM_cell,4_extra,True
+CIMA,CD8_CTL_IFI44L,CL:0000794,"CD8-positive, alpha-beta cytotoxic T cell",CD8+_TEM_cell,manual,2,1,"CL:0000625 CD8-positive, alpha-beta T cell",CD8+_T_cell,GZMB/GZMK cytotoxic CD8 cells are effector memory; the ontology linked them to naive CD8,CD8+_TEM_cell,4_extra,True
+CIMA,CD4_Tfh-like_CXCR5,CL:0002038,T follicular helper cell,CD4+_TEM_cell,manual,3,2,"CL:0000624 CD4-positive, alpha-beta T cell",CD4+_CTL_cell;CD4+_T_cell,CD4 helper subsets are memory/effector cells; the ontology linked them to naive CD4,,,
+CIMA,CD4_Th1-like_GZMK,CL:0000545,T-helper 1 cell,CD4+_TEM_cell,manual,3,2,"CL:0000624 CD4-positive, alpha-beta T cell",CD4+_CTL_cell;CD4+_T_cell,CD4 helper subsets are memory/effector cells; the ontology linked them to naive CD4,,,
+CIMA,CD4_Th17-like_RORC,CL:0000899,T-helper 17 cell,CD4+_TEM_cell,manual,3,2,"CL:0000624 CD4-positive, alpha-beta T cell",CD4+_CTL_cell;CD4+_T_cell,CD4 helper subsets are memory/effector cells; the ontology linked them to naive CD4,,,
+CIMA,CD4_Th22-like_CCR10,CL:0001042,T-helper 22 cell,CD4+_TEM_cell,manual,3,2,"CL:0000624 CD4-positive, alpha-beta T cell",CD4+_CTL_cell;CD4+_T_cell,CD4 helper subsets are memory/effector cells; the ontology linked them to naive CD4,,,

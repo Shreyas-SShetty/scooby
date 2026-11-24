@@ -1,0 +1,84 @@
+[  0.0 min] reading data/scpoli/training_data/onek1k_training_data/OneK1K_only_immune.h5ad
+[  0.1 min] 2403 genes; 1,267,768 cells
+[  0.5 min] input (1267768, 2403), target (1267768, 10)
+[  0.5 min] fold 1/5: 244,556 held-out cells from 15 pools
+[  0.6 min]   fold 1 epoch 5: early-stop-set MSE 0.0001 (best 0.0001)
+[  0.6 min]   fold 1 epoch 10: early-stop-set MSE 0.0001 (best 0.0001)
+[  0.6 min]   fold 1 epoch 15: early-stop-set MSE 0.0001 (best 0.0001)
+[  0.6 min]   fold 1 epoch 20: early-stop-set MSE 0.0000 (best 0.0000)
+[  0.7 min]   fold 1 epoch 25: early-stop-set MSE 0.0000 (best 0.0000)
+[  0.7 min]   fold 1 epoch 30: early-stop-set MSE 0.0000 (best 0.0000)
+[  0.7 min]   fold 1 epoch 35: early-stop-set MSE 0.0000 (best 0.0000)
+[  0.8 min]   fold 1 epoch 40: early-stop-set MSE 0.0000 (best 0.0000)
+[  0.8 min] fold 2/5: 254,215 held-out cells from 15 pools
+[  0.8 min]   fold 2 epoch 5: early-stop-set MSE 0.0001 (best 0.0001)
+[  0.8 min]   fold 2 epoch 10: early-stop-set MSE 0.0001 (best 0.0001)
+[  0.8 min]   fold 2 epoch 15: early-stop-set MSE 0.0001 (best 0.0001)
+[  0.9 min]   fold 2 epoch 20: early-stop-set MSE 0.0001 (best 0.0000)
+[  0.9 min]   fold 2 epoch 25: early-stop-set MSE 0.0000 (best 0.0000)
+[  0.9 min]   fold 2 epoch 30: early-stop-set MSE 0.0000 (best 0.0000)
+[  0.9 min]   fold 2 epoch 35: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.0 min]   fold 2 epoch 40: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.0 min] fold 3/5: 258,904 held-out cells from 15 pools
+[  1.0 min]   fold 3 epoch 5: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.0 min]   fold 3 epoch 10: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.1 min]   fold 3 epoch 15: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.1 min]   fold 3 epoch 20: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.1 min]   fold 3 epoch 25: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.1 min]   fold 3 epoch 30: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.2 min]   fold 3 epoch 35: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.2 min]   fold 3 epoch 40: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.2 min] fold 4/5: 249,291 held-out cells from 15 pools
+[  1.2 min]   fold 4 epoch 5: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.2 min]   fold 4 epoch 10: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.3 min]   fold 4 epoch 15: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.3 min]   fold 4 epoch 20: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.3 min]   fold 4 epoch 25: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.4 min]   fold 4 epoch 30: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.4 min]   fold 4 epoch 35: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.4 min]   fold 4 epoch 40: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.4 min] fold 5/5: 260,802 held-out cells from 15 pools
+[  1.4 min]   fold 5 epoch 5: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.5 min]   fold 5 epoch 10: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.5 min]   fold 5 epoch 15: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.5 min]   fold 5 epoch 20: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.6 min]   fold 5 epoch 25: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.6 min]   fold 5 epoch 30: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.6 min]   fold 5 epoch 35: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.6 min]   fold 5 epoch 40: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.7 min] held-out R2 per dimension: [1.    0.999 0.992 0.999 0.99  0.998 1.    0.997 1.    1.   ] | mean 0.997
+[  1.7 min] median distance to the authors' 10 numbers: 0.0138 (median distance between two column centres: 1.0179)
+[  1.7 min] cells whose nearest column centre is the same as with the authors' numbers: 96.1%
+                      column  cells  median_distance_to_authors  nearest_centre_right_authors  nearest_centre_right_ours  nearest_centre_same_as_authors
+                      B cell  95108                    0.007338                      0.833736                   0.833326                        0.982504
+              CD16+ monocyte  15709                    0.012062                      0.963779                   0.963206                        0.998472
+               CD4+ CTL cell  17939                    0.016975                      0.439378                   0.439601                        0.948046
+                 CD4+ T cell 258664                    0.016694                      0.776652                   0.778624                        0.959167
+               CD4+ TCM cell 287899                    0.014512                      0.423069                   0.423194                        0.938256
+               CD4+ TEM cell  31102                    0.013379                      0.440358                   0.442898                        0.938879
+               CD56+ NK cell   6994                    0.013984                      0.953818                   0.954246                        0.994567
+                 CD8+ T cell  52534                    0.014211                      0.430407                   0.423726                        0.942133
+               CD8+ TCM cell  16333                    0.014049                      0.238964                   0.238107                        0.934121
+               CD8+ TEM cell 160538                    0.014224                      0.522605                   0.523290                        0.964345
+                   MAIT cell   8799                    0.010523                      0.833390                   0.828503                        0.974543
+                     NK cell 164544                    0.012695                      0.885022                   0.884669                        0.993582
+                 Treg memory  26214                    0.019064                      0.327001                   0.325628                        0.926909
+              dendritic cell   4725                    0.013322                      0.896931                   0.897989                        0.980317
+                    dnT cell   1817                    0.016415                      0.514584                   0.506879                        0.938360
+                    gdT cell  18876                    0.013409                      0.371000                   0.369994                        0.965883
+hematopoietic precursor cell   1807                    0.026315                      0.545102                   0.561704                        0.930271
+               memory B cell  30069                    0.008188                      0.651102                   0.657787                        0.965080
+                    monocyte  35359                    0.009471                      0.995192                   0.994994                        0.999519
+                 plasmablast   3627                    0.017388                      0.997519                   0.997243                        0.999173
+ plasmacytoid dendritic cell   1882                    0.016122                      0.904888                   0.904357                        0.982465
+                    platelet    516                    0.020367                      0.542636                   0.542636                        0.968992
+[  1.7 min] training the final network on all pools
+[  1.7 min]   final epoch 5: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.8 min]   final epoch 10: early-stop-set MSE 0.0001 (best 0.0001)
+[  1.8 min]   final epoch 15: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.8 min]   final epoch 20: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.9 min]   final epoch 25: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.9 min]   final epoch 30: early-stop-set MSE 0.0000 (best 0.0000)
+[  1.9 min]   final epoch 35: early-stop-set MSE 0.0000 (best 0.0000)
+[  2.0 min]   final epoch 40: early-stop-set MSE 0.0000 (best 0.0000)
+[  2.0 min] written to scpoli_substitute/: encoder.pt, genes.tsv, heldout_summary.json, heldout_per_column.csv, embedding_heldout_predicted.pq

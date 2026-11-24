@@ -1,0 +1,27 @@
+
+=== vs previous run, ontology ===
+                               new_clear  new_correct  new_pct  old_clear  old_correct  old_pct  types        n  pearson  median_sp_new  median_sp_old
+lineage                                                                                                                                              
+B                                 362.0        310.0     85.6      372.0        313.0     84.1   14.0   7374.0   0.9993            NaN            NaN
+DC                                 80.0         69.0     86.2       79.0         68.0     86.1    4.0   1850.0   0.9983            NaN            NaN
+Mono                              401.0        347.0     86.5      405.0        350.0     86.4    8.0   6515.0   0.9988            NaN            NaN
+NK                                167.0        147.0     88.0      173.0        152.0     87.9    5.0   3678.0   0.9991            NaN            NaN
+T                                1754.0       1553.0     88.5     1788.0       1575.0     88.1   32.0  33362.0   0.9985            NaN            NaN
+hematopoietic_precursor_cell        3.0          3.0    100.0        3.0          3.0    100.0    1.0     47.0   0.9997            NaN            NaN
+platelet                            8.0          5.0     62.5        5.0          2.0     40.0    1.0    331.0   0.9775            NaN            NaN
+ALL                              2775.0       2434.0     87.7     2825.0       2463.0     87.2   65.0  53157.0   0.9985       0.131748       0.127632
+
+=== vs previous run, mapping48 ===
+                               new_clear  new_correct  new_pct  old_clear  old_correct  old_pct  types        n  pearson  median_sp_new  median_sp_old
+lineage                                                                                                                                              
+B                                 310.0        266.0     85.8      319.0        268.0     84.0   11.0   6247.0   0.9994            NaN            NaN
+DC                                 79.0         68.0     86.1       78.0         67.0     85.9    2.0   1745.0   0.9985            NaN            NaN
+Mono                              387.0        335.0     86.6      391.0        338.0     86.4    7.0   6249.0   0.9987            NaN            NaN
+NK                                134.0        117.0     87.3      137.0        120.0     87.6    4.0   3024.0   0.9991            NaN            NaN
+T                                1320.0       1165.0     88.3     1355.0       1184.0     87.4   22.0  25070.0   0.9984            NaN            NaN
+hematopoietic_precursor_cell        3.0          3.0    100.0        3.0          3.0    100.0    1.0     47.0   0.9997            NaN            NaN
+platelet                            8.0          5.0     62.5        5.0          2.0     40.0    1.0    331.0   0.9775            NaN            NaN
+ALL                              2241.0       1959.0     87.4     2288.0       1982.0     86.6   48.0  42713.0   0.9984        0.13149       0.127683
+
+ontology types mapped to >1 column: 10
+types with n>10 new: 69  not scored (n<=10): []
