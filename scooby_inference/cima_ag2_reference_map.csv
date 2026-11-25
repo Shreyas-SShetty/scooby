@@ -1,0 +1,49 @@
+tissue_label,ag2_condition,ag2_match_quality,ag2_match_note
+CD4_Tcm_CXCR5,UBERON:0000178_CL:0000904,lineage_match,CD4 central memory reference
+CD4_Tem_CCR7neg,UBERON:0000178_CL:0000905,lineage_match,CD4 effector memory reference
+CD4_CTL_GZMH,UBERON:0000178_CL:0000934,lineage_match,CD4 cytotoxic reference
+CD8_Tcm_IFI44L,UBERON:0000178_CL:0000907,state_proxy,CD8 central memory reference without interferon state
+CD8_Tem_CCR7neg,UBERON:0000178_CL:0000913,lineage_match,CD8 effector memory reference
+MAIT_SLC4A10,UBERON:0000178_CL:0000940,lineage_match,MAIT reference
+NK_bright_XCL1,UBERON:0000178_CL:0000938,lineage_match,CD56-bright NK reference
+HSPC_CD34,UBERON:0002371_CL:0000037,tissue_proxy,Bone marrow stem cell reference for circulating progenitors
+Plasmablast_MKI67,UBERON:0000178_CL:0000980,state_proxy,Plasmablast reference without a cycling state
+CD4_Tn_CCR7,UBERON:0000178_CL:0000895,lineage_match,Naive CD4 reference
+CD8_Tn_CCR7,UBERON:0000178_CL:0000900,lineage_match,Naive CD8 reference
+DC2_CD1C,UBERON:0000178_CL:0002399,lineage_match,CD1c-positive dendritic reference
+cMono_CD14,UBERON:0000178_CL:0001054,lineage_match,CD14-positive monocyte reference
+ncMono_FCGR3A,UBERON:0000178_CL:0002396,lineage_match,CD14-low CD16-positive monocyte reference
+pDC_IRF4,UBERON:0000178_CL:0000784,lineage_match,Plasmacytoid dendritic reference
+Bn_TCL1A,UBERON:0000178_CL:0000788,lineage_match,Naive B reference while Scooby uses its broader B cell column
+Mature_NK_dim_FCGR3A,UBERON:0000178_CL:0000623,broader_reference,Generic NK reference covers more than mature CD56-dim cells
+CD4_Treg_FOXP3,UBERON:0000178_CL:0000792,lineage_match,CD25-positive regulatory CD4 reference
+Switched_Bm_IGHDneg,UBERON:0000178_CL:0001053,lineage_match,IgD-negative memory B reference
+gdT2_IL12RB2,UBERON:0000178_CL:0002407,lineage_match,Vdelta2-positive gamma delta T reference
+MK_GP9,UBERON:0000178_CL:0000233,shared_scooby_proxy,Both models use platelets for the CIMA megakaryocyte label
+CD4_Tcm_IFI44L,UBERON:0000178_CL:0000904,state_proxy,CD4 central memory reference without interferon state
+cMono_IL1B,UBERON:0000178_CL:0001054,state_proxy,CD14-positive monocyte reference without IL1B state
+cMono_IFI44L,UBERON:0000178_CL:0001054,state_proxy,CD14-positive monocyte reference without interferon state
+cMono_CXCL10,UBERON:0000178_CL:0001054,state_proxy,CD14-positive monocyte reference without CXCL10 state
+ncMono_C1QA,UBERON:0000178_CL:0002396,state_proxy,CD14-low CD16-positive monocyte reference without C1QA state
+ncMono_IFIT1,UBERON:0000178_CL:0002396,state_proxy,CD14-low CD16-positive monocyte reference without interferon state
+CD8_CTL_GZMB,UBERON:0000178_CL:0000913,shared_scooby_proxy,Both models use CD8 effector memory for the CIMA cytotoxic label
+CD8_CTL_GZMK,UBERON:0000178_CL:0000913,shared_scooby_proxy,Both models use CD8 effector memory for the CIMA cytotoxic label
+CD4_Treg_FCRL3,UBERON:0000178_CL:0000792,state_proxy,Regulatory CD4 reference without FCRL3 state
+Bn_IL6,UBERON:0000178_CL:0000788,state_proxy,Naive B reference without IL6 state
+Bn_IFIT3,UBERON:0000178_CL:0000788,state_proxy,Naive B reference without interferon state
+Terminal_NK_dim_CD160neg,UBERON:0000178_CL:0000623,broader_reference,Generic NK reference without a terminal CD56-dim state
+Unswitched_Bm_CD1C,UBERON:0000178_CL:0000970,state_proxy,Unswitched memory B reference without CD1C state
+pre-Switched_Bm_JAM3,UBERON:0000178_CL:0000787,broader_reference,Memory B reference without pre-switch state
+Switched_activated_Bm_CD86,UBERON:0000178_CL:0000972,state_proxy,Class-switched memory B reference without activation state
+Atypical_Bm_ITGAX,UBERON:0000178_CL:0000787,broader_reference,Memory B reference without atypical ITGAX state
+gdT2_GZMK,UBERON:0000178_CL:0002407,state_proxy,Vdelta2-positive gamma delta T reference without GZMK state
+gdT2_GZMH,UBERON:0000178_CL:0002407,state_proxy,Vdelta2-positive gamma delta T reference without GZMH state
+gdT1_TRDV1,UBERON:0000178_CL:0002409,broader_reference,Vdelta2-negative gamma delta T reference includes additional subtypes
+CD4_Tn_SOX4,UBERON:0000178_CL:0000895,state_proxy,Naive CD4 reference without SOX4 state
+CD4_Tn_CXCR5,UBERON:0000178_CL:0000895,state_proxy,Naive CD4 reference without CXCR5 state
+CD4_Tn_LIMS1,UBERON:0000178_CL:0000895,state_proxy,Naive CD4 reference without LIMS1 state
+CD8_Tn_SOX4,UBERON:0000178_CL:0000900,state_proxy,Naive CD8 reference without SOX4 state
+Proliferative_NK_MKI67,UBERON:0000178_CL:4033071,lineage_match,Cycling NK reference while Scooby uses a broader NK column
+Switched_Bm_IGHE,UBERON:0000178_CL:0000972,broader_reference,Class-switched memory B reference without IgE restriction
+Unswitched_Bm_IL6,UBERON:0000178_CL:0000970,state_proxy,Unswitched memory B reference without IL6 state
+CD8_CTL_IFI44L,UBERON:0000178_CL:0000913,shared_scooby_proxy,Both models use CD8 effector memory for the CIMA cytotoxic label

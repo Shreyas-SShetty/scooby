@@ -25,3 +25,5 @@ scooby_inference/data/aida/cell2025_supplementary/
 scooby_inference/data/aida/embedded*/embedding.pq
 scooby_inference/scpoli_substitute/embedding_heldout_predicted.pq
 __pycache__/
+
+/scooby_inference/ag2_out/
