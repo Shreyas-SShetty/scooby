@@ -65,3 +65,7 @@ python score_aida.py                                                         # -
 
 Not in git: `results/` (raw predictions), raw cell files (`data/cima_cells/`, `data/aida/cells/`, `data/scpoli/`),
 the AIDA paper's supplementary files, large embedding files, PDFs, decks and `figures/`.
+
+## AlphaGenome 2 benchmarks
+
+Run the [AlphaGenome 2 comparisons for OneK1K, GTEx and CIMA](scooby_inference/README.md).
